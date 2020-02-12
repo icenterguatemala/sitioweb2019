@@ -1,0 +1,23 @@
+1.2
+- Added WooCommerce 3.3.5 compatibility
+- Added compatibility with PHP 7.2
+- Added Envato Market plugin as required
+- Added recommended plugins (WooCommerce and Contact Form 7)
+- Added Order and OrderBy options for Testimonials shortcode
+- Updated core plugin to 1.0.1
+- Updated Visual Composer to 5.4.7
+- Updated Revolution Slider to 5.4.7.3
+- Fixed bug with Mikado Slider shortcode option
+- Fixed search archive pagination
+
+1.1.1
+- Updated Visual Composer to  5.2.1
+- Fixed issue with Mikado Woocommerce Dropdown Cart widget
+- Fixed bug with Menu Area position option
+- Fixed potential security issue when saving theme options
+
+1.1
+- Minor css modifications
+- Added Enable Zoom Maginfier option
+- Added Set Images Behavior option
+

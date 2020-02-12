@@ -1,0 +1,90 @@
+.mkd-preload-background { background-image: url(https://icenterguate.com/wp-content/themes/servicemaster/assets/img/preload_pattern.png) !important;}
+
+.mkd-type4-gradient-left-to-right { background: linear-gradient(to right,#32343a, #bfa155);}
+
+.mkd-type4-separator-gradient-left-to-right { border-image: linear-gradient(to right,#32343a, #bfa155);border-image-slice: 1;}
+
+.mkd-type4-gradient-bottom-to-top, .mkd-type4-gradient-bottom-to-top-after:after { background: linear-gradient(to top,#32343a, #bfa155);}
+
+.mkd-type4-gradient-left-bottom-to-right-top { background: linear-gradient(to right top,#32343a, #bfa155);}
+
+.mkd-type4-gradient-left-to-right-2x { background: linear-gradient(to right,#32343a 0%, #bfa155 50%,#32343a 100%);background-size: 200% 200%;}
+
+.mkd-type4-gradient-left-to-right-text i, .mkd-type4-gradient-left-to-right-text i:before, .mkd-type4-gradient-left-to-right-text span { background: -webkit-linear-gradient(right top,#bfa155, #32343a);color: #32343a;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+.mkd-type4-gradient-bottom-to-top-text i, .mkd-type4-gradient-bottom-to-top-text i:before, .mkd-type4-gradient-bottom-to-top-text span { background: -webkit-linear-gradient(bottom,#bfa155, #32343a);color: #32343a;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
+
+.mkd-top-bar-background { height: 63px;}
+
+.mkd-header-standard-extended .mkd-page-header .mkd-logo-area .mkd-grid .mkd-vertical-align-containers { border: 0;}
+
+.mkd-header-centered .mkd-page-header .mkd-logo-area .mkd-grid .mkd-vertical-align-containers { border: 0;}
+
+            .mkd-main-menu.mkd-default-nav > ul > li > a,
+            .mkd-page-header #lang_sel > ul > li > a,
+            .mkd-page-header #lang_sel_click > ul > li > a,
+            .mkd-page-header #lang_sel ul > li:hover > a{
+             color: #0a0a0a;                                                                                     }
+        
+        
+                    .mkd-main-menu.mkd-default-nav > ul > li:hover > a,
+            .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item:hover > a,
+            body:not(.mkd-menu-item-first-level-bg-color) .mkd-main-menu.mkd-default-nav > ul > li:hover > a,
+            body:not(.mkd-menu-item-first-level-bg-color) .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item:hover > a,
+            .mkd-page-header #lang_sel ul li a:hover,
+            .mkd-page-header #lang_sel_click > ul > li a:hover{
+            color: #ffffff !important;
+            }
+        
+                    .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item > a,
+            body:not(.mkd-menu-item-first-level-bg-color) .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item > a{
+            color: #ffffff;
+            }
+        
+                    .mkd-main-menu.mkd-default-nav > ul > li > a span.item_inner,
+            .mkd-page-header #lang_sel .lang_sel_sel,
+            .mkd-top-bar #lang_sel .lang_sel_sel{
+            background-color: #ffffff;
+            }
+        
+        
+            .mkd-main-menu.mkd-default-nav > ul > li:hover > a span.item_inner,
+            .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item:hover > a span.item_inner,
+            .mkd-page-header #lang_sel li:hover .lang_sel_sel {
+            background-color: #0a0a0a;
+            }
+        
+                    .mkd-main-menu.mkd-default-nav > ul > li.mkd-active-item > a span.item_inner {
+            background-color: #0a0a0a;
+            }
+        
+
+        
+        
+        
+        
+        
+        
+        .mkd-full-width-wide-menu .mkd-drop-down .wide .second, .mkd-drop-down .second .inner > ul, .mkd-drop-down .second .inner ul li ul, .mkd-drop-down li.narrow .second .inner ul, .shopping_cart_dropdown, .mkd-page-header #lang_sel ul ul, .mkd-top-bar #lang_sel ul ul, .mkd-drop-down .wide.wide_background .second { background-color: rgba(10,10,10,0);}
+
+
+        
+        
+                    header .mkd-drop-down .second {
+            top: 20%;            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+                
+        

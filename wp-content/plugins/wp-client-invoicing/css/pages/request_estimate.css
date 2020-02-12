@@ -1,0 +1,247 @@
+#wpc_inv_request_estimate.wpc_form .wpc_form_label {
+    width: 20%;
+}
+
+#wpc_inv_request_estimate.wpc_form .wpc_form_field {
+    width: 80%;
+}
+
+.wpc_inv_hidden {
+    display: none;
+}
+
+/*TABLE BLOCK*/
+#wpc_inv_table_items,
+#wpc_inv_table_discounts,
+#wpc_inv_table_taxes,
+#wpc_inv_table_total_all {
+    width:100%;
+    float:left;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #000;
+    border: 1px solid #333;
+}
+
+#wpc_inv_table_items thead,
+#wpc_inv_table_discounts thead,
+#wpc_inv_table_taxes thead,
+#wpc_inv_table_total_all thead {
+    width:100%;
+    border-bottom: 1px solid #333;
+    background: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+#wpc_inv_table_items thead tr,
+#wpc_inv_table_discounts thead tr,
+#wpc_inv_table_taxes thead tr,
+#wpc_inv_table_total_all thead tr {
+    border:none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    width: 100%;
+}
+
+#wpc_inv_table_items thead th,
+#wpc_inv_table_discounts thead th,
+#wpc_inv_table_taxes thead th,
+#wpc_inv_table_total_all thead th {
+    border-top:none;
+    border-bottom:none;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    border-collapse: collapse;
+    margin: 0;
+    text-transform: none !important;
+    padding: 0 0 0 5px !important;
+    line-height: 24px;
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+}
+
+#wpc_inv_table_discounts thead th,
+#wpc_inv_table_taxes thead th,
+#wpc_inv_table_total_all thead th {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+#wpc_inv_table_items thead th:first-child,
+#wpc_inv_table_discounts thead th:first-child,
+#wpc_inv_table_taxes thead th:first-child {
+    border-left: none;
+}
+
+#wpc_inv_table_items thead th:last-child,
+#wpc_inv_table_discounts thead th:last-child,
+#wpc_inv_table_taxes thead th:last-child {
+    border-right: none;
+}
+
+#wpc_inv_table_items thead th.wpc_inv_actions_th {
+    width: 28px;
+    display: none;
+}
+
+#wpc_inv_table_items thead th.wpc_inv_actions_th.row_del {
+    display: table-cell;
+}
+
+
+#wpc_inv_table_items .wpc_inv_delete_row {
+    display: none;
+}
+#wpc_inv_table_items .wpc_inv_delete_row.row_del {
+    display: table-cell;
+}
+
+#wpc_inv_table_items thead th.wpc_inv_name_th {
+    width: calc( 70% - 208px );
+    border-left: none;
+}
+
+#wpc_inv_table_items thead th.wpc_inv_description_th {
+    width: 30%;
+}
+
+#wpc_inv_table_items thead th.wpc_inv_quantity_th,
+#wpc_inv_table_items thead th.wpc_inv_rate_th,
+#wpc_inv_table_items thead th.wpc_inv_total_th {
+    width: 60px;
+}
+
+
+#wpc_inv_table_discounts thead th.wpc_inv_name_th {
+    width: calc( 70% - 180px );
+}
+
+#wpc_inv_table_discounts thead th.wpc_inv_description_th {
+    width: 30%;
+}
+
+#wpc_inv_table_discounts thead th.wpc_inv_quantity_th,
+#wpc_inv_table_discounts thead th.wpc_inv_rate_th,
+#wpc_inv_table_discounts thead th.wpc_inv_total_th {
+    width: 60px;
+}
+
+#wpc_inv_table_taxes thead th.wpc_inv_name_th {
+    width: calc( 70% - 180px );
+}
+
+#wpc_inv_table_taxes thead th.wpc_inv_description_th {
+    width: 30%;
+}
+
+#wpc_inv_table_taxes thead th.wpc_inv_quantity_th,
+#wpc_inv_table_taxes thead th.wpc_inv_rate_th,
+#wpc_inv_table_taxes thead th.wpc_inv_total_th {
+    width: 60px;
+}
+
+
+#wpc_inv_table_total_all thead th.wpc_inv_total_th {
+    width: 60px;
+}
+
+#wpc_inv_table_items tbody input[type="number"] {
+    background: transparent !important;
+}
+
+
+#wpc_inv_table_items tbody,
+#wpc_inv_table_discounts tbody,
+#wpc_inv_table_taxes tbody,
+#wpc_inv_table_total_all tbody {
+    width:100%;
+    border: none;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+#wpc_inv_table_items tbody tr,
+#wpc_inv_table_discounts tbody tr,
+#wpc_inv_table_taxes tbody tr {
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+#wpc_inv_table_items tbody tr:first-child,
+#wpc_inv_table_discounts tbody tr:first-child,
+#wpc_inv_table_taxes tbody tr:first-child {
+    border-top: none;
+}
+#wpc_inv_table_items tbody tr:last-child,
+#wpc_inv_table_discounts tbody tr:last-child,
+#wpc_inv_table_taxes tbody tr:last-child {
+    border-bottom: none;
+}
+
+#wpc_inv_table_items td,
+#wpc_inv_table_discounts td,
+#wpc_inv_table_taxes td {
+    border-top:none;
+    border-bottom:none;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 5px !important;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#wpc_inv_table_items td:first-child,
+#wpc_inv_table_discounts td:first-child,
+#wpc_inv_table_taxes td:first-child {
+    border-left: none;
+}
+#wpc_inv_table_items td:last-child,
+#wpc_inv_table_discounts td:last-child,
+#wpc_inv_table_taxes td:last-child {
+    border-right: none;
+}
+
+#wpc_inv_table_items .wpc_inv_item_row.wpc_inv_no_items {
+    background: #fff !important;
+}
+
+#wpc_inv_table_items .wpc_inv_item_row,
+#wpc_inv_table_discounts .wpc_inv_discount_row,
+#wpc_inv_table_taxes .wpc_inv_tax_row {
+    background: #eee;
+}
+
+#wpc_inv_table_items .wpc_inv_item_row:nth-child(odd),
+#wpc_inv_table_discounts .wpc_inv_discount_row:nth-child(odd),
+#wpc_inv_table_taxes .wpc_inv_tax_row:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+#request_item {
+    padding: 12px 10px !important;
+    font-size: 14px;
+    line-height: 1;
+}

@@ -1,0 +1,21 @@
+.textarea_wpc_note {
+    margin-bottom: 10px;
+}
+
+.row_del {
+    width: 31px !important;
+    cursor:pointer;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row_del span {
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    cursor:pointer;
+    background: transparent url("../../wp-client/images/icons_buttons.png") no-repeat scroll -17px center;
+    margin: 0;
+    padding: 0 !important;
+    float: left;
+}

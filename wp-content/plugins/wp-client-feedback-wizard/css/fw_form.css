@@ -1,0 +1,86 @@
+.wpc_form input[type="button"].wpc_button.wpc_fw_approve {
+    background: #a3f196;
+    border-left-color: #a3f196;
+    border-top-color: #a3f196;
+    border-right-color: #8fdb82;
+    border-bottom-color: #8fdb82;
+    color: #444;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_approve:hover {
+    background: #97e48a;
+    border-left-color: #96e389;
+    border-top-color: #96e389;
+    border-right-color: #8fdb82;
+    border-bottom-color: #8fdb82;
+    color: #202020;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_approve:active,
+.wpc_form input[type="button"].wpc_button.wpc_fw_approve:focus {
+    background: #97e48a;
+    border-left-color: #8fdb82;
+    border-top-color: #8fdb82;
+    border-right-color: #96e389;
+    border-bottom-color: #96e389;
+    color: #444;
+}
+
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_sure {
+    background: #f0f188;
+    border-left-color: #f0f188;
+    border-top-color: #f0f188;
+    border-right-color: #dadb78;
+    border-bottom-color: #dadb78;
+    color: #444;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_sure:hover {
+    background: #e3e47e;
+    border: 2px solid;
+    border-left-color: #e2e37f;
+    border-top-color: #e2e37f;
+    border-right-color: #dadb78;
+    border-bottom-color: #dadb78;
+    color: #202020;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_sure:active,
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_sure:focus {
+    background: #e3e47e;
+    border-left-color: #dadb78;
+    border-top-color: #dadb78;
+    border-right-color: #e2e37f;
+    border-bottom-color: #e2e37f;
+    color: #444;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_approve {
+    background: #f19a9f;
+    border-left-color: #f19a9f;
+    border-top-color: #f19a9f;
+    border-right-color: #db858a;
+    border-bottom-color: #db858a;
+    color: #444;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_approve:hover {
+    background: #e48b91;
+    border: 2px solid;
+    border-left-color: #e38b90;
+    border-top-color: #e38b90;
+    border-right-color: #db858a;
+    border-bottom-color: #db858a;
+    color: #202020;
+}
+
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_approve:active,
+.wpc_form input[type="button"].wpc_button.wpc_fw_not_approve:focus {
+    background: #e48b91;
+    border-left-color: #db858a;
+    border-top-color: #db858a;
+    border-right-color: #e38b90;
+    border-bottom-color: #e38b90;
+    color: #444;
+}

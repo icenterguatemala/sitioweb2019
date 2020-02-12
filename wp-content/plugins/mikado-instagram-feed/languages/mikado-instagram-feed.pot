@@ -1,0 +1,112 @@
+# Copyright (C) 2017 Mikado Instagram Feed
+# This file is distributed under the same license as the Mikado Instagram Feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mikado Instagram Feed 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mikado-instagram-feed\n"
+"POT-Creation-Date: 2017-04-13 13:29:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: widgets/mkd-instagram-widget.php:13
+msgid "Mikado Instagram Widget"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:14
+msgid "Display instagram images"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:25
+msgid "Title"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:30
+msgid "Tag"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:35
+msgid "Number of photos"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:40
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:42
+msgid "Two"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:43
+msgid "Three"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:44
+msgid "Four"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:45
+msgid "Six"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:46
+msgid "Eight"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:47
+msgid "Nine"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:53
+msgid "Image Size"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:55
+msgid "Small"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:56
+msgid "Medium"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:57
+msgid "Large"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:63
+msgid "Space Between Columns?"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:65 widgets/mkd-instagram-widget.php:74
+msgid "Yes"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:66 widgets/mkd-instagram-widget.php:75
+msgid "No"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:72
+msgid "Show Overlay?"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:81
+msgid "Images Cache Time"
+msgstr ""
+
+#: widgets/mkd-instagram-widget.php:202
+msgid "You haven't connected with Instagram. Please go to Mikado Options -> Social page and connect with your Instagram account."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Mikado Instagram Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds Instagram feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mikado Themes"
+msgstr ""

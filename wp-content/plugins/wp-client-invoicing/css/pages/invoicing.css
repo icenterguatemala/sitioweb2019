@@ -1,0 +1,91 @@
+/* Styles for invoice page
+ * see wp-content/plugins/wp-client-invoicing/templates/invoice.php
+ */
+
+/* Resize 700px */
+.resize-queries[max-width~="700px"] td[align="right"]{
+    text-align: right; 
+}
+.resize-queries[max-width~="700px"] #date_informs{
+    display: inline-table;
+    width: auto !important; 
+    white-space: nowrap;
+}
+
+.resize-queries[max-width~="700px"] .embedded_table td:first-of-type {
+    width: auto !important; 
+}
+.resize-queries[max-width~="700px"] .embedded_table td:nth-last-of-type(3) {
+    width: 5em !important;
+}
+.resize-queries[max-width~="700px"] .embedded_table td:nth-last-of-type(-n+2) {
+    width: 4.5em !important; 
+}
+
+.resize-queries[max-width~="700px"] #sub_block td:first-of-type {
+    width: auto !important; 
+}
+.resize-queries[max-width~="700px"] #sub_block td:nth-last-of-type(-n+2) {
+    width: 7em !important;
+}
+
+/* Resize 350px */
+.resize-queries[max-width~="350px"] table,
+.resize-queries[max-width~="350px"] tbody,
+.resize-queries[max-width~="350px"] thead,
+.resize-queries[max-width~="350px"] tr,
+.resize-queries[max-width~="350px"] th,
+.resize-queries[max-width~="350px"] td{
+    display: block !important;
+    font-size: 12pt;
+    height: auto;
+    line-height: 1.42em !important;
+    text-align: left !important;
+}
+.resize-queries[max-width~="350px"] #date_informs td{
+    display: inline-block !important;
+    padding-left: 0em;
+}
+
+.resize-queries[max-width~="350px"] .embedded_table thead{
+    display: none !important;
+}
+.resize-queries[max-width~="350px"] .embedded_table table[title]:before {
+    content: attr(title);
+    background-color: #363636;
+    color: #fff;
+    display: block;
+    padding: 0.25em;
+}
+.resize-queries[max-width~="350px"] .embedded_table table + table {
+    border-top: 1px black solid;
+}
+.resize-queries[max-width~="350px"] .embedded_table td[title] {
+    font-size: 11pt;
+    line-height: 1.21em !important;
+    width: auto !important;
+}
+.resize-queries[max-width~="350px"] .embedded_table td[title]:before {
+    content: attr(title)':';
+    display: inline-block;
+    line-height: inherit;
+    margin-right: 0.5em;
+}
+
+.resize-queries[max-width~="350px"] #sub_block {
+    margin-bottom: 1em;
+}
+.resize-queries[max-width~="350px"] #sub_block tr {
+    display: table !important;
+}
+.resize-queries[max-width~="350px"] #sub_block td:first-of-type {
+    display: none !important;
+}
+.resize-queries[max-width~="350px"] #sub_block td:nth-last-of-type(-n+2) {
+    float: left;
+    padding: 0.2em 0em;
+    width: 50% !important;
+}
+.resize-queries[max-width~="350px"] #sub_block td:last-of-type {
+    text-align: right !important;
+}

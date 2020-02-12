@@ -1,0 +1,109 @@
+=== WP-Client-Private-Post-Types ===
+Authors: WP-Client.com
+Plugin Page: http://www.WP-Client.com    
+
+ 
+== Changelog ==
+
+= 1.6.3 =
+- Fixed preview protected pages for manager;
+- Fixed display protected pages on admin area;
+
+
+= 1.6.2 =
+- Fixed show metabox for protected post types;
+
+= 1.6.1 =
+!!!!!!!!! Important: Required version 4.5.9 of Core plugin.
+- New Style for checkboxes;
+
+= 1.6.0 =
+!!!!!!!!! Important: Required version 4.5.0 of Core plugin.
+- Some fixes;
+- Some changes
+
+= 1.5.2 =
+- Fixes for "Crash Updates notice";
+- Some fixes;
+
+= 1.5.1 =
+- Fixes for display shortcode templates on admin area;
+
+= 1.5.0 =
+!!!!!!!!! Important: Required version 4.4.0 of Core plugin.
+- New emails templates design;
+- New shortcode templates;
+- New settings style;
+- Added sms template
+- Fixed problem with shortcode category;
+- Some fixes;
+
+= 1.4.6 =
+- Added option to protect Theme Link pages;
+
+= 1.4.5 =
+!!!!!!!!! Important: Required version 4.3.0 of Core plugin.
+- Changed screen options pagination;
+- Some Fixes;
+
+= 1.4.4 =
+- Fixed bulk assigns;
+
+= 1.4.3 =
+- Added pagination screen options;
+- Added changes to redirect to login form logic;
+
+
+= 1.4.2 =
+- Added fix for some pages;
+- Translations locale changed;
+- Some fixes;
+
+= 1.4.1 =
+- Some fixes for some pages;
+
+= 1.4.0 =
+- Added feature for exclude protected pages from menu;
+
+= 1.3.9 =
+- Fixed problem with list shortcode;
+
+= 1.3.8 =
+- Added Permission Reports Private Posts (needs 4.0.2 core);
+- Changed assigns logic for private posts;
+
+
+= 1.3.7 =
+- Fixed assign private pages from Private Post Types table;
+
+
+= 1.3.6 =
+- Fixed GET parameters;
+
+= 1.3.5 =
+- fixed problem with show trash posts in list of protected posts;
+
+= 1.3.4 =
+!!!!!!!!! Important: Required version 3.9.1 of Core plugin.
+- Changed assign popup;
+
+
+= 1.3.3 =
+- Style changes;
+- Fixes;
+
+
+= 1.3.2 =
+- Added shortcode template for Private list;
+- Added shortcode attr no_redirect & redirect_text;
+
+
+= 1.3.1 =
+- Add private post types list;
+- Fixed assign popup;
+
+
+= 1.3.0 =
+!!!!!!!!! Important: Required version 3.8.5 of Core plugin.
+- new shortcodes system;
+

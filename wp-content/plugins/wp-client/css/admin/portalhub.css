@@ -1,0 +1,79 @@
+/*#wpc_portalhubs_form {
+    margin: 5px 0 0 0;
+    float:left;
+}
+
+#wpc_portalhubs_form .tablenav {
+    height: auto !important;
+}*/
+
+/* columns widths */
+#wpc_portalhubs_form .wp-list-table.hubpages .column-clients,
+#wpc_portalhubs_form .wp-list-table.hubpages .column-circles {
+    width: 10%;
+}
+
+#wpc_portalhubs_form .wp-list-table.hubpages .column-order {
+    width: 10%;
+}
+
+#wpc_portalhubs_form .wp-list-table.hubpages .column-default_value {
+    width: 50px;
+    text-align: center !important;
+}
+
+
+.wpc_default_portalhub .row-actions .delete {
+    visibility: hidden;
+}
+
+
+/*
+#wpc_portalhubs_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+.wpc_tab_container_block {
+    padding: 0;
+}
+
+#wpc_portalhubs_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_portalhubs_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_portalhubs_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_portalhubs_form .alignleft.actions.bulkactions {
+    display: none;
+}
+
+#wpc_portalhubs_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+*/
+
+
+@media (max-width: 782px) {
+    #wpc_portalhubs_form .wp-list-table.hubpages .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_portalhubs_form .wp-list-table.hubpages .column-username {
+        width: 100%;
+    }
+}

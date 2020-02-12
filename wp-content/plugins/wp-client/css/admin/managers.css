@@ -1,0 +1,88 @@
+#wpc_managers_form {
+    margin: 5px 0 0 0;
+    float:left;
+}
+
+#wpc_managers_form .wp-list-table.managers {
+    font-size: 12px !important;
+}
+
+#wpc_managers_form .tablenav {
+    height: auto !important;
+}
+
+/* columns widths */
+#wpc_managers_form .wp-list-table.managers .check-column {
+    width: 28px !important;
+}
+
+#wpc_managers_form .wp-list-table.managers .column-nickname {
+    width: 11%;
+}
+
+#wpc_managers_form .wp-list-table.managers .column-email {
+    width: 210px;
+}
+
+#wpc_managers_form .wp-list-table.managers .column-auto_add_clients {
+    width: 120px;
+    text-align: center !important;
+}
+
+#wpc_managers_form .wp-list-table.managers .column-circles {
+    width: 9%;
+    text-align: center !important;
+}
+#wpc_managers_form .wp-list-table.managers .column-clients {
+    width: 8%;
+    text-align: center !important;
+}
+
+/*#wpc_managers_form .wp-list-table.managers .column-username {
+    width: calc( 72% - 358px );
+}*/
+
+#wpc_managers_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_managers_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_managers_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_managers_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_managers_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 782px) {
+    #wpc_managers_form .wp-list-table.managers .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_managers_form .wp-list-table.managers .column-username {
+        width: 100%;
+    }
+
+    #wpc_managers_form .wp-list-table.managers .column-circles,
+    #wpc_managers_form .wp-list-table.managers .column-clients {
+        text-align: left !important;
+    }
+}

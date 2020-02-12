@@ -1,0 +1,105 @@
+.wp-list-table.files {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files.widefat th {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files.widefat td,
+.wp-list-table.files.widefat td ol,
+.wp-list-table.files.widefat td p,
+.wp-list-table.files.widefat td ul {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files .row-actions {
+    font-size: 11px !important;
+}
+
+.wp-list-table.files .check-column {
+    width: 28px !important;
+}
+
+/*.wp-list-table.files .column-file_icon {
+    width: 40px;
+    text-align: center !important;
+}
+
+.wp-list-table.files .column-file_title {
+    width: 25%;
+}*/
+
+
+
+.wp-list-table.files .column-circles,
+.wp-list-table.files .column-clients {
+    width: 10%;
+    text-align: center !important;
+}
+
+.wp-list-table.files .column-order {
+    width: 7%;
+}
+
+.wp-list-table.files .column-author {
+    width: 8%;
+}
+
+.wp-list-table.files .column-categories {
+    width: 10%;
+}
+
+.wp-list-table.files .column-date,
+.wp-list-table.files .column-last_download {
+    width: 11%;
+}
+
+#wpc_file_form .tablenav {
+    height: auto !important;
+}
+
+#wpc_file_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_file_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_file_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_file_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_file_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 782px) {
+    #wpc_file_form .wp-list-table.files .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_file_form .wp-list-table.files .column-username {
+        width: 100%;
+    }
+
+    .wp-list-table.files .column-circles,
+    .wp-list-table.files .column-clients {
+        text-align: left !important;
+    }
+}

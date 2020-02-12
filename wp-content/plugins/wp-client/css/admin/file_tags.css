@@ -1,0 +1,30 @@
+#wpc_file_tags_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_file_tags_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_file_tags_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_file_tags_form .wp-list-table.tags .check-column {
+    width: 28px !important;
+}
+
+#wpc_file_tags_form .wp-list-table.tags .column-count {
+    width:10%;
+}
+
+@media (max-width: 782px) {
+    #wpc_file_tags_form .wp-list-table.tags .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_file_tags_form .wp-list-table.tags .column-count {
+        width: 100%;
+    }
+}

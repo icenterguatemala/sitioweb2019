@@ -1,0 +1,73 @@
+#wpc_staff_approve_form {
+    margin: 5px 0 0 0;
+    float:left;
+}
+
+#wpc_staff_approve_form .tablenav {
+    height: auto !important;
+}
+
+#wpc_staff_approve_form .wp-list-table.staff {
+    font-size: 12px !important;
+}
+
+/* columns widths */
+#wpc_staff_approve_form .wp-list-table.staff .check-column {
+    width: 28px !important;
+}
+
+#wpc_staff_approve_form .wp-list-table.staff .column-first_name {
+    width: 15%;
+}
+
+#wpc_staff_approve_form .wp-list-table.staff .column-email {
+    width: 210px;
+}
+
+#wpc_staff_approve_form .wp-list-table.staff .column-client {
+    width: 15%;
+}
+
+/*#wpc_staff_approve_form .wp-list-table.staff .column-username {
+    width: calc( 70% - 338px );
+}*/
+
+#wpc_staff_approve_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_staff_approve_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_staff_approve_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_staff_approve_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_staff_approve_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 782px) {
+    #wpc_staff_approve_form .wp-list-table.staff .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_staff_approve_form .wp-list-table.staff .column-username {
+        width: 100%;
+    }
+}

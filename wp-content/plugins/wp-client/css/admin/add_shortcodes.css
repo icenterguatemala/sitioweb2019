@@ -1,0 +1,222 @@
+.wpc_shortcodes_and_placeholders_box .sb_lightbox_content_body {
+    overflow: hidden;
+}
+
+#wpc_shortcodes_and_placeholders {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_main_button {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_left_side,
+#wpc_shortcodes_and_placeholders .wpc_right_side {
+    float: left;
+    height: 100%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_left_side {
+    width: 30%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_right_side {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 10px;
+    width: 65%;
+    float: right;
+}
+
+#wpc_shortcodes_and_placeholders #wpc_list_placeholders {
+    display: none;
+}
+
+#wpc_shortcodes_and_placeholders #main_button {
+    text-align: center;
+}
+
+#wpc_add_shortcode img {
+    padding: 0 4px 0 0;
+    vertical-align: text-top;
+}
+
+input.add_shortcode_button,
+input.add_placeholder_button {
+    float: right;
+}
+
+div.wpc_right_side .action_buttons_block {
+    display: none;
+    background-color: #F1F1F1;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    width: 60%;
+}
+
+#wpc_shortcodes_and_placeholders .ui-accordion-header {
+    border-color: rgb(221, 221, 221) !important;
+    margin: 0;
+    padding: 10px 10px 10px 7px;
+    border-bottom: 1px solid #ddd;
+    color: #555d66 !important;
+    border-radius: 0;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+
+#wpc_shortcodes_and_placeholders .ui-widget-content a {
+    color: #0073aa;
+}
+
+#wpc_shortcodes_and_placeholders .ui-widget-content a:hover {
+    color: #00a0d2;
+}
+
+#wpc_shortcodes_and_placeholders .ui-widget {
+    font-family: inherit;
+}
+
+#wpc_shortcodes_and_placeholders .ui-accordion-header:hover,
+#wpc_shortcodes_and_placeholders .ui-accordion-header-active {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#wpc_shortcodes_and_placeholders .ui-accordion-content {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 0;
+    border: none !important;
+}
+
+#wpc_shortcodes_and_placeholders .ui-accordion-content p {
+    margin: 0;
+}
+
+#wpc_shortcodes_and_placeholders .ui-accordion-content p span {
+    padding: 10px 10px 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_options {
+    min-height: 70%;
+    padding-bottom: 70px;
+}
+
+#wpc_shortcodes_and_placeholders div.wpc_right_side {
+    height: 100%;
+}
+
+#wpc_shortcodes_and_placeholders .ui-state-active,
+#wpc_shortcodes_and_placeholders .ui-state-active .ui-icon,
+#wpc_shortcodes_and_placeholders .ui-state-default,
+#wpc_shortcodes_and_placeholders .ui-widget-content .ui-state-default,
+#wpc_shortcodes_and_placeholders .ui-widget-header .ui-state-default {
+    background: none;
+    border: none !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -khtml-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_shortcodes_options_block {
+    width: 100%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_shortcodes_options_label {
+    width: 70%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_shortcodes_options_setting {
+    width: 30%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_switching_button {
+    clear: both;
+    left: 0;
+    /*position: absolute;*/
+    top: 23px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_switching_button_val {
+    /*border-right: 1px solid #aaaaaa;*/
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 50%;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_switching_button_val label {
+    /*background: #f1f1f1 none repeat scroll 0 0;*/
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 2;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_switching_button_val input:checked ~ label {
+     background: #008EC2 none repeat scroll 0 0;
+     color: #ffffff;
+     /*font-weight: bold;*/
+}
+
+#wpc_shortcodes_and_placeholders .wpc_switching_button_val input {
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#wpc_shortcodes_and_placeholders #wpc_list_shortcodes,
+#wpc_shortcodes_and_placeholders #wpc_list_placeholders {
+    margin-top: 45px;
+}
+
+
+#wpc_shortcodes_and_placeholders .ui-accordion-header-icon {
+    display: none;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_accordion_link:focus {
+    box-shadow: none !important;
+    -webkit-box-shadow: none;
+    -khtml-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+#wpc_shortcodes_and_placeholders .wpc_accordion_link span:focus,
+#wpc_shortcodes_and_placeholders .wpc_accordion_link span:hover,
+#wpc_shortcodes_and_placeholders .wpc_accordion_link_active span {
+    border-left: 3px solid #0073aa !important;
+    padding-left: 12px !important;
+}

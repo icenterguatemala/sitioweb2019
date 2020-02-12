@@ -1,0 +1,2 @@
+<h2>What personal data we collect and why we collect it</h2>
+<p>This text describes what type of information the admin should include here or what they should do with this info you provide in your template.</p>

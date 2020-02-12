@@ -1,0 +1,49 @@
+.wp-list-table.file_downloads {
+    font-size: 12px !important;
+}
+
+.wp-list-table.file_downloads.widefat th {
+    font-size: 12px !important;
+}
+
+.wp-list-table.file_downloads.widefat td,
+.wp-list-table.file_downloads.widefat td ol,
+.wp-list-table.file_downloads.widefat td p,
+.wp-list-table.file_downloads.widefat td ul {
+    font-size: 12px !important;
+}
+
+.wp-list-table.file_downloads .row-actions {
+    font-size: 11px !important;
+}
+
+.wp-list-table.file_downloads .column-file_icon {
+    width: 50px;
+    text-align: center !important;
+}
+
+/*.wp-list-table.file_downloads .column-file_title {
+    width: calc( 50% - 50px );
+}*/
+
+.wp-list-table.file_downloads .column-downloaded_by,
+.wp-list-table.file_downloads .column-download_date {
+    width: 25%;
+}
+
+#wpc_file_downloads_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_file_downloads_form .alignleft.actions.bulkactions {
+    display: none;
+}
+
+#wpc_file_downloads_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_file_downloads_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}

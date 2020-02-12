@@ -1,0 +1,1220 @@
+.back-to-top {
+    position: fixed;
+    bottom: 60px;
+    left: 180px;
+    text-decoration: none;
+    padding: 0;
+    display: none;
+    z-index:1000;
+    border:1px solid;
+    border-color: rgba( 204,204,204,0.4 );
+    border-radius: 16px;
+    background: transparent;
+}
+
+.back-to-top-image {
+    float:left;
+    /*width:42px;
+    height:43px;*/
+    width:32px;
+    height:32px;
+    background: transparent url(../../images/top3.png) no-repeat 0px 0px;
+    opacity:0.5;
+}
+
+.back-to-top:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+.back-to-top:hover .back-to-top-image {
+    opacity:0.7;
+}
+
+.wpc_msg_nav_wrapper {
+    width:15%;
+    min-width:180px;
+    float:left;
+    margin:0;
+    padding:0px 10px 0px 0px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_new_message_button {
+    width:100%;
+    margin:0;
+    padding:0px;
+    background: #0073aa;
+    border:none;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    cursor:pointer;
+    border-radius:2px;
+}
+
+.wpc_msg_new_message_button:hover {
+    background: #0080bd;
+}
+
+.wpc_msg_nav_list_wrapper {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:20px 0px 0px 0px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_nav_list {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.wpc_msg_nav_list li {
+    cursor:pointer;
+    padding: 8px 0px 8px 15px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_nav_list li.selected {
+    color:#000;
+    font-weight: bold;
+    padding: 8px 0px 8px 10px;
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_nav_list li.inbox.selected {
+    border-left: 5px solid #7ad03a;
+}
+
+.wpc_msg_nav_list li.sent.selected {
+    border-left: 5px solid #0073aa;
+}
+
+.wpc_msg_nav_list li.all.selected {
+    border-left: 5px solid #b63ad0;
+}
+
+.wpc_msg_nav_list li.archive.selected {
+    border-left: 5px solid #f5d332;
+}
+
+.wpc_msg_nav_list li.trash.selected {
+    border-left: 5px solid #dd3d36;
+}
+
+.wpc_msg_nav_list li:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_content_wrapper {
+    width:84%;
+    max-width:calc( 100% - 180px );
+    float:left;
+    margin:0;
+    padding:0px 0px 0px 10px;
+    min-height: 200px;
+    border:none;
+    border-left:1px solid;
+    border-left-color: rgba( 204,204,204,0.4 );
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    position: relative;
+}
+
+.wpc_msg_top_nav_wrapper {
+    width:100%;
+    float:left;
+    margin:0px 0px 10px 0px;
+    padding:0;
+    position: relative;
+}
+
+
+.wpc_msg_controls_line {
+    margin: 0;
+    float:left;
+    width:80%;
+    padding: 0;
+    max-width: calc( 100% - 140px );
+}
+
+.wpc_msg_bulk_all {
+    width: 50px;
+    float:left;
+    margin: 0px 10px 0px 0px;;
+    padding: 0;
+    background: transparent;
+    border-radius: 2px;
+    position:relative;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    border:1px solid;
+    border-color: rgba( 204,204,204,0.4 );
+    cursor:pointer;
+    height: 26px;
+    line-height:24px;
+}
+
+.wpc_msg_bulk_all:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_bulk_all:after {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:6px;
+    content:'\25bc';
+    color:rgba( 0, 0, 0, 0.6 );
+    font-size: 10px;
+}
+
+.wpc_msg_bulk_all.bulk_opened {
+    border-radius: 2px 2px 0px 0px;
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_bulk_all .wpc_msg_bulk_actions_wrapper {
+    display: none;
+    top:100%;
+    left:-1px;
+    width:150px;
+    background: black;
+    position: absolute;
+    z-index:100;
+    border:1px solid;
+    border-color: rgba( 204,204,204,0.4 );
+    background: #e8e8e8;
+    border-radius: 0px 2px 2px 2px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    padding:0;
+}
+
+.wpc_msg_bulk_all.bulk_opened .wpc_msg_bulk_actions_wrapper {
+    display: block;
+}
+
+.bulk_select,
+.bulk_actions {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    display:block;
+}
+
+.bulk_select li,
+.bulk_actions li {
+    float:left;
+    width:100%;
+    padding: 0px 0px 0px 5px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    display:block;
+    margin:0;
+}
+
+.bulk_select li:hover,
+.bulk_actions li:hover {
+    background: rgba( 204,204,204,0.4 );
+}
+
+.wpc_msg_bulk_check {
+    float:left;
+    margin: 4px 0px 4px 7px !important;
+    padding: 0;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.wpc_msg_bulk_check:indeterminate:before {
+    content: '\002043';
+    margin: -13px 0 0 -1px;
+    color: #1e8cbe;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    font: bold 30px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wpc_msg_filter {
+    width: 80px;
+    float:left;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 10px;
+    background: transparent;
+    border-radius: 2px;
+    position:relative;
+    color: rgba( 0, 0, 0, 0.6 );
+    border:1px solid rgba( 204,204,204,0.4 );
+    cursor:pointer;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    line-height: 24px;
+    height: 26px;
+}
+
+.wpc_msg_filter.filter_opened {
+    border-radius: 2px 2px 0 0;
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_filter:after {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:6px;
+    content:'\25bc';
+    color:rgba( 0, 0, 0, 0.6 );
+    font-size: 10px;
+}
+
+.wpc_msg_filter.filter_opened:after {
+    content:'\25b2';
+}
+
+.wpc_msg_filter:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+.wpc_msg_add_filter {
+    margin: 0 auto !important;
+    display: block !important;
+    margin-top:7px !important;
+}
+
+
+.wpc_msg_filter .wpc_msg_filter_wrapper {
+    display: none;
+    top:100%;
+    left:-1px;
+    width:300px;
+    position: absolute;
+    z-index:100;
+    border:1px solid;
+    border-color: rgba( 204,204,204,0.4 );
+    background: #e8e8e8;
+    border-radius: 0 2px 2px 2px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    padding: 5px;
+}
+
+.wpc_msg_filter.filter_opened .wpc_msg_filter_wrapper {
+    display: block;
+}
+
+.wpc_msg_filter_by,
+.from_date_field,
+.to_date_field {
+    padding: 2px !important;
+    line-height: 28px !important;
+    height: 28px !important;
+    font-size: 14px !important;
+}
+
+
+.wpc_msg_filter_wrapper .wpc_ajax_content {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.wpc_msg_filter_wrapper .wpc_loading_overflow {
+    background: transparent;
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+
+.wpc_msg_filter_wrapper .wpc_small_ajax_loading {
+    position: absolute;
+    top:50%;
+    left:50%;
+    background: url("../../images/ajax_loading.gif");
+    width:15px;
+    height:15px;
+    margin: -7px 0 0 -7px;
+}
+
+.wpc_msg_filter_wrapper .wpc_ajax_load_content {
+    position: relative;
+}
+
+.wpc_msg_filter_wrapper .wpc_overflow_content {
+    visibility: visible;
+    float:left;
+    width:100%;
+}
+.wpc_msg_filter_wrapper .wpc_is_loading .wpc_overflow_content {
+    visibility: hidden;
+}
+
+.wpc_msg_filter_wrapper .wpc_loading_overflow {
+    visibility: hidden;
+}
+.wpc_msg_filter_wrapper .wpc_is_loading .wpc_loading_overflow {
+    visibility: visible;
+}
+
+.wpc_msg_filter_selectors {
+    float: left;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.wpc_msg_active_filters_wrapper {
+    float:left;
+    display: block;
+    width: 100%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_filter_wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+    padding: 1px 4px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 11px;
+    line-height: 22px;
+    background: #eee;
+    float:left;
+    display: inline-block;
+    cursor: default;
+    color: #000;
+}
+
+.wpc_filter_wrapper:hover {
+    border-color: #bbb;
+    background: #ddd;
+}
+
+.wpc_remove_filter {
+    float:right;
+    margin-left: 10px;
+    margin-right: 2px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color:#a00;
+}
+
+.wpc_remove_filter:hover {
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wpc_msg_search_line {
+    margin: 0;
+    float:left;
+    width: 50%;
+    padding: 0;
+}
+
+.wpc_msg_search {
+    width:calc(100% - 40px);
+    float:left;
+    margin: 0;
+    text-align:left;
+    padding-left:10px !important;
+    height: 26px;
+    display:none;
+}
+
+.wpc_msg_search_button {
+    float:left;
+    height: 26px;
+    width:40px;
+    background: #f1f1f1;
+    cursor:pointer;
+    border-radius: 2px;
+    border:1px solid rgba( 204,204,204,0.4 );
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin: 0;
+    padding:0;
+}
+
+.wpc_msg_search_button.opened {
+    border-right:none !important;
+    border-radius: 2px 0 0 2px;
+}
+
+.wpc_msg_search_image {
+    float:left;
+    width: 15px;
+    height: 16px;
+    margin: 4px 15px 5px 10px;
+    background: transparent url(../../images/search.png) no-repeat 0 0;
+    opacity:0.6;
+}
+
+.wpc_msg_search_button:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+
+
+
+.wpc_msg_pagination {
+    float:right;
+    width:20%;
+    min-width:140px;
+    padding: 0;
+    margin:0;
+}
+
+.wpc_msg_refresh_button {
+    width:26px;
+    background: transparent;
+    cursor:pointer;
+    border-radius: 2px;
+    float:right;
+    height:26px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin-right:2px;
+    border:1px solid rgba( 204,204,204,0.4 );
+}
+
+.wpc_msg_refresh_image {
+    width:16px;
+    height:16px;
+    background: transparent url(../../images/refresh.png) no-repeat 0 0;
+    margin:4px auto;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    opacity:0.6;
+}
+
+.wpc_msg_collapse_button {
+    width:26px;
+    background: transparent;
+    cursor:pointer;
+    border-radius: 2px;
+    float:right;
+    height:26px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin-right:2px;
+    border:1px solid rgba( 204,204,204,0.4 );
+}
+
+.wpc_msg_collapse_button.disabled,
+.wpc_msg_collapse_button.disabled {
+    cursor:default;
+    opacity:0.4;
+}
+
+.wpc_msg_collapse_button.disabled:hover,
+.wpc_msg_collapse_button.disabled:hover {
+    background: transparent;
+}
+
+.wpc_msg_collapse_image,
+.wpc_msg_expand_image {
+    width:16px;
+    height:16px;
+    margin:4px auto;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    opacity:0.6;
+}
+
+.wpc_msg_collapse_image {
+    background: transparent url(../../images/collapse.png) no-repeat 0 0;
+}
+.wpc_msg_expand_image {
+    background: transparent url(../../images/expand.png) no-repeat 0 0;
+}
+
+.wpc_msg_pagination_buttons {
+    float:right;
+    margin:0;
+    padding:0;
+    width:60px;
+}
+
+.wpc_msg_prev_button {
+    width:26px;
+    background: transparent;
+    cursor:pointer;
+    border-radius: 2px 0 0 2px;
+    float:left;
+    height:26px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin-right:2px;
+    border:1px solid rgba( 204,204,204,0.4 );
+}
+
+.wpc_msg_prev_image {
+    width:16px;
+    height:16px;
+    background: transparent url(../../images/next.png) no-repeat 0 0;
+    margin:4px auto;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    opacity:0.6;
+}
+
+.wpc_msg_next_button {
+    width:26px;
+    background: transparent;
+    cursor:pointer;
+    border-radius: 0 2px 2px 0;
+    float:left;
+    height:26px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    border:1px solid rgba( 204,204,204,0.4 );
+}
+
+.wpc_msg_next_image {
+    width:16px;
+    height:16px;
+    background: transparent url(../../images/prev.png) no-repeat 0 0;
+    margin:4px auto;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    opacity:0.6;
+}
+
+.wpc_msg_prev_button:hover,
+.wpc_msg_next_button:hover {
+    background: rgba( 155,155,155,0.1 );
+}
+
+
+.wpc_msg_prev_button.disabled,
+.wpc_msg_next_button.disabled {
+    cursor:default;
+    opacity:0.4;
+}
+
+.wpc_msg_prev_button.disabled:hover,
+.wpc_msg_next_button.disabled:hover {
+    background: transparent;
+}
+
+.wpc_msg_pagination_text {
+    float:right;
+    line-height:26px;
+    text-align:right;
+    margin-right:4px;
+    width:calc( 100% - 92px );
+    overflow-x: hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+
+.wpc_msg_chain_content {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+    min-height: 200px;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_chain_subject {
+    float:left;
+    width:100%;
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wpc_msg_message_line {
+    float:left;
+    width:100%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin: 0;
+    padding: 5px;
+    border-top:1px solid rgba( 204,204,204,0.4 );
+    background: rgba( 255, 255, 255, 0.8 );
+}
+
+.wpc_msg_message_line.wpc_msg_for_hidden {
+    display: none;
+}
+
+.expand_older_messages {
+    border-top:1px solid rgba( 204,204,204,0.4 );
+    float:left;
+    width:100%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    cursor:pointer;
+    font-weight: bold;
+    opacity:0.8;
+}
+
+.expand_older_messages:hover {
+    opacity:1;
+}
+
+.wpc_msg_avatar {
+    float:left;
+    margin:0;
+    padding:0;
+    width:50px;
+    font-size:50px;
+    height:50px;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_line_content {
+    float:left;
+    margin:0;
+    padding:0 0 0 10px;
+    width: calc( 100% - 50px );
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_author_date {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_message_author {
+    float:left;
+    width:calc( 100% - 200px );
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    font-weight: bold;
+}
+
+.wpc_msg_message_date {
+    float:left;
+    width: 200px;
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align: right;
+}
+
+.wpc_msg_message_content {
+    float:left;
+    width:100%;
+    margin:10px 0 0 0;
+    padding:0;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    opacity:0.9;
+    word-wrap: break-word;
+}
+
+.wpc_msg_chain_answer {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:30px 0 0 5px;
+    border-top:1px solid rgba( 204,204,204,0.4 );
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_answer_field {
+    float:left;
+    margin:0;
+    padding:0 0 0 10px;
+    width: calc( 100% - 50px );
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_answer_actions {
+    float:right;
+    margin:15px 0 0 0;
+    padding:0 0 0 10px;
+    width:calc( 100% - 50px );
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+#send_answer {
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+#back_answer {
+    float:left;
+    margin:0;
+}
+
+.wpc_msg_content_wrapper_inner {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+    min-height: 200px;
+    border:none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wpc_msg_content_wrapper_inner .tablenav.top,
+.wpc_msg_content_wrapper_inner .tablenav.bottom {
+    display:none;
+}
+
+.wp-list-table.messages thead,
+.wp-list-table.messages tfoot {
+    display: none;
+}
+
+.wp-list-table.messages tbody tr {
+    cursor:pointer;
+}
+
+.wp-list-table.messages .check-column {
+    width:26px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wp-list-table.messages .check-column input {
+    margin: 0 0 0 3px;
+}
+
+.wp-list-table.messages td.column-date {
+    width: 230px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align: center;
+}
+
+.wp-list-table.messages td.column-client_ids {
+    width: 30%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.wp-list-table.messages td.column-message_text {
+    width: calc( 70% - 230px );
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    position: relative;
+}
+
+.wpc_chain_markers {
+    position: absolute;
+    right:0;
+    top:0;
+    bottom:0;
+    padding:8px 10px;
+}
+
+.wpc_chain_markers div {
+    float:left;
+    margin:0 0 0 4px;
+    padding:3px 3px;
+    border:1px solid #555;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 1;
+    background: #fff;
+}
+
+tbody>:nth-child(odd) .wpc_chain_markers div {
+    background: #f9f9f9;
+}
+
+.wpc_chain_markers div.inbox_marker {
+    background: #7ad03a !important;
+}
+.wpc_chain_markers div.sent_marker {
+    background: #0073aa !important;
+    color:#fff;
+}
+.wpc_chain_markers div.archive_marker {
+    background: #f5d332 !important;
+}
+.wpc_chain_markers div.trash_marker {
+    background: #dd3d36 !important;
+    color:#fff;
+}
+
+.wp-list-table.messages tr.no-items {
+    cursor: default;
+}
+
+.wp-list-table.messages tr.no-items td {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.add_new_message {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+    display: none;
+}
+
+.wpc_msg_content_wrapper .wpc_ajax_overflow {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #f1f1f1;
+    display:none;
+    z-index: 2000;
+}
+
+.wpc_msg_content_wrapper .wpc_ajax_overflow .wpc_ajax_loading {
+    background: url('../../images/ajax-loader-bar.gif') no-repeat 0 0;
+    width: 220px;
+    height: 19px;
+    padding: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -9px 0 0 -110px;
+}
+
+
+.add_new_message_wrapper {
+    float: left;
+    width:100%;
+}
+
+.new_message_line {
+    float:left;
+    width:100%;
+    margin: 5px 0 5px 0;
+}
+
+.new_message_line input,
+.new_message_line select {
+    margin:0 !important;
+}
+
+.new_message_label {
+    float:left;
+    width: 20%;
+}
+
+.new_message_field {
+    float:left;
+    width: 80%;
+}
+
+
+.wpc_messages_count {
+    float:left;
+    margin-right:5px;
+    max-width:calc( 20% - 5px );
+}
+
+.wpc_chain_members {
+    width:80%;
+    float:left;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wpc_chain_subject {
+    float:left;
+    max-width:calc( 80% - 5px );
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wpc_chain_last_message {
+    opacity:0.9;
+    float:left;
+    margin-left:5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 960px) {
+    .back-to-top {
+        bottom: 60px;
+        left: 60px;
+    }
+}
+
+@media (max-width: 782px) {
+    .back-to-top {
+        bottom: 0;
+        left: 0;
+    }
+
+    .wpc_msg_nav_wrapper {
+        width:100%;
+        padding:0;
+        margin:0 0 10px 0;
+    }
+
+    .wpc_msg_new_message_button {
+        width:20%;
+        float:left;
+    }
+
+    .wpc_msg_nav_list_wrapper {
+        width:80%;
+        padding:0 0 0 20px;
+    }
+
+    .wpc_msg_nav_list li {
+        display: inline-block;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        float:left;
+        width: 20%;
+        border-left: 1px solid rgba( 204,204,204,0.4 ) !important;
+    }
+
+    .wpc_msg_nav_list li:first-child {
+        border-left: none !important;
+    }
+
+    .wpc_msg_nav_list li.selected {
+        padding: 4px 0 7px 10px;
+    }
+
+    .wpc_msg_nav_list li.inbox.selected {
+        border-top: 3px solid #7ad03a;
+    }
+
+    .wpc_msg_nav_list li.sent.selected {
+        border-top: 3px solid #0073aa;
+    }
+
+    .wpc_msg_nav_list li.all.selected {
+        border-top: 3px solid #b63ad0;
+    }
+
+    .wpc_msg_nav_list li.archive.selected {
+        border-top: 3px solid #f5d332;
+    }
+
+    .wpc_msg_nav_list li.trash.selected {
+        border-top: 3px solid #dd3d36;
+    }
+
+
+    .wpc_msg_bulk_check:checked:before {
+        font: 400 21px/1 dashicons !important;
+    }
+
+    .wpc_msg_search_line {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .wpc_msg_search {
+        font-size: 14px;
+    }
+
+    .wpc_msg_controls_line,
+    .wpc_msg_pagination {
+        margin-top: 0;
+    }
+
+    .wpc_msg_active_filters_wrapper {
+        margin-top: 36px;
+    }
+
+    .wpc_msg_content_wrapper {
+        width:100%;
+        max-width:100%;
+        border-left:none !important;
+        border-top:1px solid;
+        border-top-color: rgba( 204,204,204,0.4 );
+        padding:10px 0 0 0;
+    }
+
+    .wp-list-table.messages td.column-date {
+        text-align: left;
+    }
+
+    .wp-list-table.messages td.column-message_text {
+        padding:3px 8px 3px 10px !important;
+    }
+
+    .wpc_chain_markers {
+        padding: 3px 10px;
+    }
+
+    .wp-list-table.messages .check-column input {
+        margin: 0 0 8px 3px;
+    }
+
+    .wp-list-table.messages .check-column {
+        width:35px;
+        padding: 8px 4px;
+    }
+
+    .new_message_label {
+        float:left;
+        width: 100%;
+    }
+
+    .new_message_field {
+        float:left;
+        width: 100%;
+    }
+
+    .new_message_line input,
+    .new_message_line textarea {
+        font-size: 14px !important;
+    }
+
+    .new_message_line input[type="submit"],
+    .new_message_line input[type="button"] {
+        margin-top:0 !important;
+        font-size: 13px !important;
+    }
+    .new_message_line input[type="button"] {
+        padding: 0 10px 1px !important;
+        line-height:25px !important;
+    }
+
+    .new_message_line input,
+    .new_message_line textarea {
+        margin-top:5px !important;
+    }
+}
+
+@media (max-width: 530px) {
+    .wpc_msg_new_message_button {
+        width:20%;
+        float:left;
+        overflow: hidden;
+        white-space: nowrap;
+        color:#0073aa;
+    }
+
+    .wpc_msg_new_message_button:hover {
+        color: #0080bd;
+    }
+
+    .wpc_msg_new_message_button:before {
+        content: '+';
+        font-weight: bold;
+        font-size:20px;
+        line-height: 20px;
+        color:#fff;
+        float:left;
+        width:100%;
+    }
+}

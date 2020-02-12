@@ -1,0 +1,129 @@
+
+
+.wpc_tab_container_block #wpc_save_items {
+    min-height: 10px;
+    border-right: 1px solid #ccc;
+    float: left;
+    width: 30%;
+
+}
+
+.wpc_tab_container_block .adding_block {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.wpc_tab_container_block #wpc_save_button {
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+}
+
+.wpc_tab_container_block #wpc_list {
+    margin: 0;
+}
+
+.wpc_tab_container_block #wpc_list li {
+    line-height: 28px;
+    margin: 0;
+    padding: 0 5px;
+    color: #0073aa;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wpc_tab_container_block #wpc_list li:hover {
+    background-color: #e4e4e4;
+    cursor: pointer !important;
+}
+
+/*button for delete*/
+#wpc_list li div {
+    margin: 5px 3px 0 0;
+    color: #a00 !important;
+}
+
+#wpc_list li div:hover {
+    color: #f00 !important;
+}
+
+.wpc_tab_container_block #wpc_list li:hover {
+    color: #000;
+}
+
+.wpc_tab_container_block #wpc_main_container {
+    position: relative;
+    border-left: 1px solid #ccc;
+    float: left;
+    margin-left: -1px;
+    padding-left: 25px;
+    width: 65%;
+}
+
+.wpc_tab_container_block #wpc_main_container input,
+.wpc_tab_container_block #wpc_main_container textarea {
+    width: 100%;
+}
+
+.wpc_tab_container_block #wpc_main_container textarea {
+    height: 300px;
+    padding: 5px;
+}
+
+.wpc_tab_container_block #wpc_main_container label {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.wpc_item_active,
+.wpc_item_active:hover {
+    background-color: #d4d4d4 !important;
+    color: #000 !important;
+}
+
+.wpc_ajax_overflow {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wpc_table_ajax_loading {
+    background: url('../../images/ajax-loader-bar.gif') no-repeat 0 0;
+    width: 220px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin: -9px 0px 0px -110px;
+}
+
+#wpc_hide_block {
+    display: none;
+}
+
+#wpc_msg_noitce {
+    padding: 10px;
+    margin: 0 0 5px 0;
+}
+
+#wpc_msg_noitce.wpc_msg_updated  {
+    border-left: 3px solid #7ad03a;
+}
+
+#wpc_msg_noitce.wpc_msg_error  {
+    border-left: 3px solid #dd3d36;
+}
+
+#wpc_show_test_link {
+    cursor: pointer;
+}
+
+#wpc_msg_noitce {
+    float: right;
+}

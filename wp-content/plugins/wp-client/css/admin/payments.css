@@ -1,0 +1,47 @@
+#wpc_payments_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_payments_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_payments_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_payments_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_payments_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+
+#wpc_payments_form .alignleft.actions.bulkactions {
+    display: none;
+}
+
+@media (max-width: 782px) {
+    #wpc_payments_form .wp-list-table.payments .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_payments_form .wp-list-table.payments .column-username {
+        width: 100%;
+    }
+
+    #wpc_payments_form .wp-list-table.payments .column-circles,
+    #wpc_payments_form .wp-list-table.payments .column-managers {
+        text-align: left !important;
+    }
+}

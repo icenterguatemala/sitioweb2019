@@ -1,0 +1,139 @@
+#wpc_clients_list_form {
+    margin: 5px 0 0 0;
+    float:left;
+}
+
+#wpc_clients_list_form .tablenav {
+    height: auto !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients {
+    font-size: 12px !important;
+}
+
+.widefat th {
+    font-size: 12px !important;
+}
+
+.widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    font-size: 12px !important;
+}
+
+.row-actions {
+    font-size: 11px !important;
+}
+
+/* columns widths */
+#wpc_clients_list_form .wp-list-table.clients .check-column {
+    width: 28px !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-contact_name,
+#wpc_clients_list_form .wp-list-table.clients .column-business_name {
+    width: 11%;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-email {
+    width: 210px;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-creation_date {
+    width: 170px;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-circles {
+    width: 9%;
+    text-align: center !important;
+}
+#wpc_clients_list_form .wp-list-table.clients .column-managers {
+    width: 8%;
+    text-align: center !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-username {
+    /*width: calc( 72% - 408px );*/
+    min-width: 150px;
+}
+
+#wpc_clients_list_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+#wpc_clients_list_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_clients_list_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
+
+#wpc_clients_list_form .alignleft.actions input[type="button"] {
+    margin-top: 1px;
+}
+
+#wpc_clients_list_form .alignleft.actions .add-new-h2 {
+    line-height: 20px;
+    height:28px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:1px 0 0 4px;
+    top:0;
+    cursor: pointer;
+}
+
+
+.sticky-menu #wpc_clients_list_form .wp-list-table.clients .column-creation_date {
+    width: 115px;
+}
+
+.sticky-menu #wpc_clients_list_form .wp-list-table.clients .column-email {
+    width: 120px;
+}
+
+/*.sticky-menu #wpc_clients_list_form .wp-list-table.clients .column-username {
+    width: calc( 72% - 263px );
+}*/
+
+@media (max-width: 1024px) {
+    #wpc_clients_list_form .wp-list-table.clients .column-creation_date {
+        width: 115px;
+    }
+
+    #wpc_clients_list_form .wp-list-table.clients .column-email {
+        width: 120px;
+    }
+
+    /*#wpc_clients_list_form .wp-list-table.clients .column-username {
+        width: calc( 72% - 263px );
+    }*/
+}
+
+
+@media (max-width: 782px) {
+    #wpc_clients_list_form .wp-list-table.clients .check-column {
+        width: 36px !important;
+    }
+
+    #wpc_clients_list_form .wp-list-table.clients .column-username {
+        width: 100%;
+    }
+
+    #wpc_clients_list_form .wp-list-table.clients .column-circles,
+    #wpc_clients_list_form .wp-list-table.clients .column-managers {
+        text-align: left !important;
+    }
+}
+
+
+.wpc_mobile_contact_name {
+    display: inline-block;
+}
+
+@media (min-width: 783px) {
+    .wpc_mobile_contact_name {
+        display: none;
+    }
+}

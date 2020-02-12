@@ -1,0 +1,103 @@
+
+
+.wpc_auto_convert_rules #rules-headers {
+    border-right: 1px solid #ccc;
+    float: left;
+    width: 30%;
+
+}
+
+.wpc_auto_convert_rules .rules_buttons {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.wpc_auto_convert_rules .rules_buttons2 {
+    padding: 10px 15px 0px 15px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.wpc_auto_convert_rules #rules_list {
+    margin: 0;
+}
+
+.wpc_auto_convert_rules #rules_list li {
+    line-height: 28px;
+    margin: 0;
+    padding: 0 5px;
+    color: #0073aa;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wpc_auto_convert_rules #rules_list li:hover {
+    background-color: #e4e4e4;
+    cursor: pointer !important;
+}
+
+.wpc_auto_convert_rules #rules_list li:hover {
+    color: #000;
+}
+
+.wpc_auto_convert_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #23282d;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.wpc_auto_convert_rules #rules-container {
+    border-left: 1px solid #ccc;
+    float: left;
+    margin-left: -1px;
+    padding-left: 25px;
+    width: 65%;
+}
+
+.wpc_auto_convert_rules #rules-container input,
+.wpc_auto_convert_rules #rules-container textarea {
+    width: 450px;
+}
+
+.wpc_auto_convert_rules #rules-container textarea {
+    height: 300px;
+    padding: 5px;
+}
+
+.wpc_auto_convert_rules #rules-container label {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.wpc_auto_convert_rule_active,
+.wpc_auto_convert_rule_active:hover {
+    background-color: #d4d4d4 !important;
+    color: #000 !important;
+}
+
+.wpc_auto_convert_delete_rule {
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.wpc_auto_convert_delete_rule a {
+    color: #a00 !important;
+}
+
+.wpc_auto_convert_delete_rule a:hover {
+    color: #f00 !important;
+}
+
+
+
+.wpc_auto_convert_response_rules {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 5px;
+}

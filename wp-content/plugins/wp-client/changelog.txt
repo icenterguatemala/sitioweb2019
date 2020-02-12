@@ -1,0 +1,1697 @@
+﻿=== WP-Client ===
+Authors: WP-Client.com
+Plugin Page: http://www.WP-Client.com    
+
+ 
+== Changelog ==
+
+= 4.6.1 =
+- Fixed [wpc_client_registration_successful] shortcode for logged in users;
+- Fixed HELP menu;
+
+
+= 4.6.0 =
+- Added compatibility for ZION Builder;
+- Added compatibility with Beaver Builder template layouts;
+- Added ability to use shortcodes in templates;
+- Fixed bulk download for File Sharing;
+- Fixed issue with send new client emails;
+- Fixed some warnings;
+- Fixed "Paste Portal Page Content" for Gutenberg editor;
+- Fixed submenus links;
+- Fixed portal page actions on admin page;
+
+= 4.5.9.7 =
+ -Added correct example of some shortcodes;
+- Added sorting for Portal Page table;
+- Some fixes for compatibility with DIVI builder;
+- Fixed Files tree table shortcode;
+- Fixed reset tags on Shortcode Template tab after some actions;
+- Fixed display custom "Menu for Assigned Circle(s)" for Staff role;
+- Fixed some errors;
+- Fixed warnings;
+
+= 4.5.9.6 =
+- Added compatibility for shortcode templates on Wordpress.com;
+- Fixed fatal error for Recaptcha v3;
+- Fixed [wpc_client_custom_field] shortcode;
+- Fixed [wpc_non_logged_in_only] shortcode;
+
+= 4.5.9.5 =
+- Added ability to per-fill fields from URL parameters;
+- Fixed "Add another" link on Menu Manage Locations;
+- Fixed "No Files" message for file tree shortcode;
+- Fixed Registration/Adding new client hook and send emails;
+
+= 4.5.9.4 =
+- Fixed issue with mySQL settings on some servers;
+- Fixed checking new versions updates on some servers with cache;
+- Fixed checking page access for [wpc_client] shortcode;
+- Fixed displays Privacy policy on the login page when it selected only for a registration form;
+
+= 4.5.9.3 =
+- Added new shortcode [wpc_client_and_staff_only];
+- Fixed replace placeholders for some shortcodes;
+- Fixed issue with styles for Files Table shortcode;
+
+= 4.5.9.2 =
+- Fixed some issues with Assign popup;
+- Fixed load some JS/CSS in the footer;
+
+= 4.5.9.1 =
+- Fixed license activation for new installation;
+
+= 4.5.9 =
+- Added Recaptcha v3;
+- Added to an ability to choose a currency sign (as $) in the custom fields;
+- New styles for checkboxes;
+- Fixed output meta data "robots";
+- Fixed access for non-approved clients;
+- Fixed problem with twice includes styles and script for some themes;
+- Fixed template filter for themes without page.php file;
+- Fixed problem with order creation
+- Fixed datepicker custom field for client view popup
+- Fixed problem with some chars in Email Template;
+- Fixed double new lines in private messages for Clients (need to reset Private Messages: One Chain Content shortcode template);
+- Fixed some issues with Wizard;
+
+= 4.5.8.1 =
+- Added tutorial video;
+- Fixed logo in PDF;
+- Small changes;
+
+= 4.5.8 =
+- Added shortcode to display payment history [wpc_client_payments_history];
+- Added no cache headers for pages with redirect;
+- Added feature to managers to send private messages to each other;
+- Added filter by Business name and Client name on File Sharing page;
+- Changed client avatar shortcode;
+- Updated PDF library;
+- Fixed include and exclude extensions for file uploader shortcode;
+- Fixed duplicated Portal pages with list view;
+- Fixed problems with treetable view shortcode;
+- Fixed Private content shortcode (Clients and Circles cannot be chosen);
+- Fixed HUB page preview for customizer;
+- Fixed fatal error for SendGrid class;
+- Fixed Add shortcode button image after closed shortcode popup;
+- Fixed some problems with portal page template;
+- Fixed problem with Parent page in Gutenberg when plugin is activated;
+- Fixed on File Sharing filter by Client doesn't show the correct order;
+- Fixed Privacy Policy isn't reflected on the login and registration pages;
+- Fixed link when sending private message to manager or admin;
+- Fixed notice style;
+- Some fixes for CRONs;
+
+= 4.5.7.1 =
+- Fixed reset keys on uninstall;
+- Fixed bug no_redirect for login form shortcode;
+- Fixed some warnings;
+
+= 4.5.7 =
+- Added compatibility with WP GDPR;
+
+= 4.5.6 =
+- Added compatibility with Gutenberg editor;
+- Added Portal and HUB post types to Gutenberg editor;
+- Added Shortcode Widget to Gutenberg editor;
+- Added Templates for Export/Import feature;
+- Added AutoFill feature for Import;
+- Added play video in popup for all video files (List/Tree/table)
+- Fixed some warnings on Clients/Staff page;
+- Fixed vulnerability for client and staff profiles
+
+= 4.5.5 =
+- Added new Custom Field Type (Password);
+- Added compatibility with Elementor Builder;
+- Added compatibility with Beaver Builder; 
+- Added display custom fields on Approve Client/Staff page;
+- Added new capabilities for Portal Page Tags;
+- Fixed style conflict with Ninja Forms;
+- Fixed some capabilities issues;
+- Fixed some styles;
+- Fixed send private messages (empty messages);
+
+= 4.5.4.2 =
+- Some fixes with pagel shortcode;
+- Fixed staff access to client custom fields;
+- Fixed compatibility with WPML;
+- Fixed Portal Page template with visual view;
+
+= 4.5.4.1 =
+- Fixed Fatal error "Cannot redeclare formatting_template";
+- Fixed add shortcode button for divi builder;
+- Fixes some problem with messages;
+- Fixed export client (download file);
+
+= 4.5.4 =
+- Fixed warning;
+- Fixed fatal error for old PHP versions;
+- Fixed short PHP tags;
+
+
+= 4.5.3 =
+- Added ability for manager to create new Category when upload file;
+- Added [wpc_manager_only] and maybe [wpc_admin_only] shortcodes;
+- Added Capabilities for Display Custom Fields tab for managers
+- Added filter by client for staff (admin area).
+- Added compatibility with Elementor Editor;
+- Fixed auto check Notify about new file;
+- Fixed Notify checkbox in the Assign popup for files
+- Fixed files filters/sorting;
+- Fixed file description text for cyrillic alphabet;
+- Fixed hide HUB for admin;
+- Fixed problem with duplicates postname;
+- Fixed problem with temp password;
+- Fixed problem with escape password on password generation
+- Fixed date_format function;
+- Fixed some emails sending;
+- Fixed HUB pages with trash status;
+
+= 4.5.2 =
+- Fixed portal page template warning;
+- Fixed update from old versions;
+- Some fixes;
+
+= 4.5.1 =
+- Fixed CRONs
+
+= 4.5.0 =
+
+= 4.4.5.6 =
+- Fixed search in WP 4.8.2;
+- Fixed add/edit client from manager account;
+
+= 4.4.5.5 =
+- Added Contact Name and Email to Clients table for mobile devices;
+- Fixed auto-login on some sites;
+- Fixed non-logged in redirect URL for Portal Pages;
+- Fixed template select for hub and portal pages;
+- Fixed logout;
+
+= 4.4.5.4 =
+- Fixed loading templates for Portal/HUB Pages;
+- Fixed load translation from custom folder wp-content/uploads/wpclient/_languages/
+
+= 4.4.5.3 =
+- Added "Show All File Categories" capability for managers;
+- Fixed HUBs capabilities (View, Add, Edit);
+- Fixed single-clientspage.php and single-portalhub.php templates;
+- Fixed menu locations feature;
+
+= 4.4.5.2 =
+- Fixed custom fields validation;
+- Fixed registration date format;
+- Fixed default value for settings field;
+- Fixed file categories dropdown options;
+- Fixed files tree templates;
+- Fixed login error messages;
+- Fixed thumbnails resizing;
+- Fixed HUB page and Portal Page default page templates;
+- Fixed problem with update to 3.6.9-beta1 from oldest versions;
+- Fixed update-4.4.0-alpha1.php for HUBs assigns and titles (for some customers);
+- Small fix for captcha;
+- Remove class "title" from custom fields;
+
+= 4.4.5.1 =
+- Added password generator button to front end;
+- Fixed Captcha;
+- Fixed some problems with activation;
+
+
+= 4.4.5 =
+- Fixed problem with WPML;
+
+= 4.4.4 =
+- Fixed placeholders in title and content;
+- Fixed reCAPTCHA 2 inits at the same page;
+- Fixed import with circles;
+- Fixed portal page creation date output in portal pages table;
+- Fixed expand/collapse for Portal Pages tree;
+- Some fixes for staff profile and staff edit;
+
+
+= 4.4.3 =
+- Added compatibility with CKEditor WP Plugin;
+- Updated Stripe API lib to 2017-06-05 version
+- Changed CURL to wp_remote_get() in PayPal;
+- Fixed hub pages permalinks (for WPML);
+- Fixed hub pages at nav menu;
+- Fixed portal pages tree;
+- Fixed import staff for assign every staff to every client;
+- Fixed import CSV file with wrong lines;
+- Fixed capabilities for Portal Pages and HUBs;
+- Fixed old Captcha;
+- Fixed get page link shortcode;
+- Fixed Capabilities for admin and manager;
+- Fixed to display content of custom field "Multi-line Text Box" in one line;
+- Fixed upload action without selected files in HTML5 uploader;
+
+= 4.4.2 =
+- Some fixes for settings page;
+- Some fixes for Portal Pages privacy;
+
+
+= 4.4.1 =
+- Fixes for "Crash Updates notice";
+- Fixed HUB capabilities for Administrator and WPC Admin;
+- Fixed file shortcodes pagination;
+- Style fixes;
+- Some changes in templates;
+- Some fixes for HUBs compatibility with WPML;
+- Updated PDF lib;
+
+= 4.4.0 =
+!!!!!!!!! Important: All old  edited Shortcode Templates will not work after update, you will need add your changes to new PHP templates;
+!!!!!!!!! Important: New logic for HUBs, please read more: https://wp-client.com/wp-client-v-4-4-0/;
+- New logic for Portal Pages;
+- New install/updates logic;
+- New Shortcode Templates (PHP format);
+- New settings style;
+- Added clients select for Exmport;
+- Added on_hold status for invalid ipn from PayPal;
+- Added "Add Shortcodes" button above editor (removed old button in editor);
+- Added clickable links at private messages;
+- Added whitelist for exclude some pages when locked site only for logged in;
+- Added feature to change status of Payment for Invoice-me gateway;
+- Added admin label for HUBs;
+- Added feature to replace placeholders at HUB title;
+- Added reset password option for resend welcome email;
+- Added ability to download old shortcode templates in zip file;
+- Added shortcode [wpc_staff_profile];
+- Changed design of email notifications templates;
+- changes for download external files;
+- Changed files categories dropdown;
+- Optimized some DB queries;
+- Fixed auto convert;
+- Fixed google docs;
+- Fixed custom field placeholder;
+- Fixed Auto Created Portal Pages assigns to circles;
+- Fixed adding and download external files;
+- Fixed show widget on portal and HUB;
+- Fixed password generation;
+- Fixed Google View fatal errors;
+- Fixed import with invalid csv files;
+- Fixed displaying custom fields on import page;
+- Fixed Display Files;
+- Fixed using HUB page as Home page;
+- Fixed errors handler for Uberloader uploader;
+- Fixed password generation;
+- Fixed customizer;
+- Fixed "show_filters" shortcode attribute;
+- Fixed select files with "category" attribute;
+- Fixed old file categories list table;
+- Fixed problem with private shortcode for staff;
+- Fixed problem with shortcode wizard;
+- Fixed files shortcodes attributes;
+- Fixed compatibility with security plugin;
+- Some fixes with custom fields;
+- Some fixes in Stripe payment gateway;
+- Moved Translation of all extensions to one file (wp-client.pot);
+- Text changes;
+
+
+= 4.3.0 =
+!!!!!!!!! Important: Templates for "Client Registration", "Client Profile" and "Staff Profile" must be reseted to default;
+- Added file description for uploader on admin area;
+- Added custom values for custom fields checkbox, radio, selectbox, mustiselect;
+- Added shortcodes to display content for [wpc_non_logged_in_only] and [wpc_logged_in_only] users;
+- Rewrote Custom fields;
+- Changed Add Portal Page;
+- Changed screen options pagination;
+- Changed Easy mode be default to "No";
+- Some fixes for generate links;
+- Fixed security bug in "Login to client account" feature;
+- Fixed SMTP test email errors sendings;
+- Fixed hide HELP tab for White Label;
+
+= 4.2.8 =
+- Added AVS for Stripe gateway;
+- Changed email notifications templates titles for private messages;
+- Fixed logo on custom login;
+- Fixed default HUB template;
+- Fixed BR for Terms/Conditions on Login Form;
+- Fixed filters for files shortcode;
+- Fixed sendgrid php 5.4 compatibility;
+- Fixed custom fields for screen options Client's table;
+- Fixed file uploader hidden input value if one category is selected;
+- Fixed send test email for email templates;
+- Fixed staff's custom fields placeholders displaying at HUB Pages, values for staff.
+- Some fixes for import/export notice;
+- Some fixes for Menu Location.
+
+
+= 4.2.7 =
+- Added features Set Values for Custom Fields;
+- Added shortcode for display content only for Clients [wpc_client_only];
+- Added shortcode for display content only for Staff [wpc_staff_only];
+- Added {subject} placeholder to Private Messages notifications;
+- Added field for import clients with circles;
+- Fixed display file icons on userarea;
+- Fixed Custom Fields for View Clients info;
+
+
+= 4.2.6 =
+- Added "All" option for "Category" argument at Files Shortcodes;
+- Assign popup optimizations;
+- Added ESC action to shutter box;
+- Fixed for custom fields;
+
+
+= 4.2.5 =
+!!!!!!IMPORTANT: You should re-saved your EZ HUB Templates after update;
+- Added New Import/Export feature;
+- Added shortcode for display business info;
+- Added class for avatars block;
+- Added feature for bulk assign files to clients and circles;
+- Added notices for important changes in plugin;
+- Added changes to custom field value shortcode for custom field "file";
+- Updated SendGrid library;
+- Some changes for Email Profiles page;
+- Some fixes for Nav Menu;
+- Small fixes for userdata update;
+- Fixed columns screen options for Clients List Table;
+- Fixed assign popup pagination;
+- Fixed icons for remote files;
+- Fixed EZ HUB Template bootstrap dropdown issue; 
+- Fixed send duplicate emails about new user registered;
+- Fixed EZ HUB, if customers not re-save EZ-HUB Templates;
+- Fixed problem with get file extension for remote files;
+- Fixed some problems with load business logo image in pdf-genetation;
+- Fixed some problems with default value of user custom fields;
+
+
+= 4.2.2 =
+- Added Easy Mode (display main features);
+- Added advanced locations of menu for Circles;
+- Moved Custom Navigation Settings to WP Menu page;
+- Some fixes;
+
+
+= 4.2.1 =
+- Added Fix for PHP versions less than 5.3;
+
+= 4.2.0 =
+!!!!!!!!! Important: Templates for "Staff Directory", "Files from Client (Table)" and "Files to Client (Table)" must be reseted to default;
+
+- Added feature for send test email with current email template;
+- Added option for hide/show Custom Login;
+- Added responsible style for files tables;
+- Added custom fields to Staff Directory page;
+- Added translates for plupload on User Area;
+- Allow using "." for file types in include/exclude file types for file uploader;
+- Changed logic for payment subscriptions in Authorize.net;
+- Show error when PayPal returns error of the connection;
+- Lost password fixed;
+- Fixed portal pages pagination on user area; 
+- Fixed portal pages count in categories on admin area;
+- Fixed some problme with phpmailer class;
+- Fixed issue with filenames in ZIP archive when bulk download files;
+- Fixed formatting popup boxes;
+- Fixed category order in dropdown boxes;
+- Fixed inner content formatting in assign popups;
+- Some fixes for setup wizard;
+- Small fix for convert users;
+- Simple China translate;
+- Small fixes;
+
+
+= 4.1.5 =
+- Added "Invoice Me" gateway;
+- Added feature for send messages by manager to Client Circle;
+- Optimized syncronization some queries;
+- Fixed some problem with send email in WP 4.6
+- Fixed default sort for pages tree;
+- Fixed nuclear options;
+- Fixed portal page links;
+- Fixed issue with send messages to Clients assigned by Circle;
+- Fixed login by email;
+
+
+= 4.1.2 =
+- Added placeholder option for login/logout widget;
+- Added default sort type "Category" to frontend file sharing table;
+- Added Statement Descriptor for Stripe;
+- Added default placeholder to file description field;
+- Change CSS for UI datepicker;
+- Fixed filesharing filter by date;
+- Fixed google viewer;
+- Fixed index.php permalinks;
+- Fixed ajax pagination (search) for files table;
+- Fixed password special chars using;
+- Fixed Portal Pages list pagination;
+- Fixed view video files;
+- Fixed files download log list table;
+- Fixed install widgets;
+
+
+= 4.1.1 =
+- Added some texts to translate;
+- Added WPC-Manager's capability for show/hide WP-Client's tinyMCE button;
+- Fixed bulk download;
+- Fixed client last download date;
+- Fixed default order for files in the files tree;
+- Fixed manager see own portal pages;
+- Style fixes for IE;
+
+
+= 4.1.0 =
+- Added fix for showing trashed PP;
+- Added fix sending notification about create PP for staff;
+- Fixed displaying file's downloaded date for clients;
+- Fixed some problem with HUB pages;
+
+= 4.0.8 =
+- Fixed tutorials;
+- Fixed sme problems with order amount for subscription payments (ipn);
+- Fixed custom CSS for login forms;
+
+= 4.0.6 =
+- Added 'Agree text' setting;
+- Added avatar preview shortcode "wpc_client_avatar_preview";
+- Added filter wpc_client_custom_fields_data;
+- Fixed send Welcome emails for many clients together;
+- Small fix for Email Profiles;
+- Fixed import checkbox and multiselect custom fields;
+- Fixed portal page preview;
+- Fixed managers assign;
+- Fixed send correct email when user password updated;
+- Fixed automatically login after registration for use it with AMS and Paid Registration plugins;
+- Fixed some problems with download zip files;
+
+
+= 4.0.5 =
+- Added fix for correct create circle for manager;
+- Added options for allow different roles in "To" field in Private Messages;
+- Fixed backend CSS formatting for Safari on MAC;
+- Fixed remove generated password after if was changed;
+- Fixed CSS for UI Tabs;
+- Fixed default sorting for filesharing table;
+- Fixed encode data in links for ajax;
+- Fixed dashboard without extensions;
+- Fixed ' symbol in email fields;
+
+
+= 4.0.3 =
+- Fixed update client profile (frontend);
+- Fixed Clients table css;
+- Fixed popup box double click;
+- Fixes CSS for login form;
+- Fixed bulk delete users admins/managers/archived;
+- Fixed popups on Files page;
+- Fixed import clients - update circles of client;
+- Fixed js validation if password fields are hidden;
+- Revert back ability to use categories names in files shortcode attribute "category".
+- Some changes for css-style of jquery-ui;
+
+
+= 4.0.2 =
+- Fixed problem with update to new version (for some servers);
+- Changed slide forms to popups (admin area);
+- Fixed hub page redirect for some roles;
+- Some fixes;
+
+= 4.0.1 =
+- Compatibility with WP 4.5
+- Added name type for [wpc_client_private] shortcode;
+- CSS&JS changes for Form Wizard plugin;
+- Changes on PP Category page;
+- Fixed avatar uploader for mobile devices;
+- Fixed CSS for payments forms;
+- Fixed some problems with update permalinks for payments;
+- Fixed scripts on login form;
+- Fixed sorting in filesharing treetable;
+- Some small fixes;
+- Text changes;
+
+= 4.0.0 =
+!!!!!!!!! Important: Needs to update Newsletter Autoresponder and some other;
+!!!!!!!!! Important: For get changes for forms, needs to reset templates which was edited to default;
+- Added Tutorials (see on get started page);
+- Added changed to forms on users area (more useful);
+- Added feature for select all Private Messages chains in list;
+- Added options file include/exclude file extensions from front end uploader;
+- Added slider to admin notice ads;
+- Added attribute for files tree to show empty categories;
+- Added texts to translation for capabilities;
+- Added upload date filters to file sharing front end;
+- Added setting of redirect URL after verify Email for logged Clients;
+- Added AVS(Address Verification Service) option for Authorize Net;
+- Changed Payment Getaways Pages front end;
+- Changed Circles page;
+- Optimized cache of options;
+- Fixed css for Private Messages in mobile devices;
+- Fixed HUB Page templates add/edit page without Visual Editor;
+- Fixed issue with password_protect scripts enqueued on any pages;
+- Fixed treetable empty folders(file categories);
+- Fixed Private Messages formatting;
+- Fixed access to empty folders;
+- Fixed assign popup width;
+- Fixed counter slider, added ajax loader;
+- Fixed theme link pages check shortcode on page;
+- Fixed slider's resize;
+- Fixed some problem with SSLVERSION for PayPal;
+- Fixed get_slug for WPML if it's not configured;
+- Fixed view Checkbox custom field;
+- Fixed delete user notification;
+- Fixed Hide portal pages for not-verify-email clients;
+- Fixed assign Portal Page to Circles, when client added with auto-add Portal Page.
+- Fixed email notification when user reset his password for default Wordpress login form, if Custom Login Form turned on.
+- Fixed external files download;
+- Fixed screen option for White label;
+- Fixed auto assign managers to new clients;
+- Fixed bulk download files;
+- Some fix for Re-send welcome Email;
+- Some fixes for google docs;
+- Small modifications for import clients;
+
+
+
+= 3.9.7.2 =
+HOTFIX: - Fixed Notifications of Private Messages;
+
+
+= 3.9.7.1 =
+HOTFIX: - Fixed CC Email for Private Message;
+
+
+= 3.9.7 =
+- Added bulk re-send for welcome email ;
+- Added ajax security for private messages;
+- Added ability upload avatar on registration form  (see Client/Staff sttings);
+- Added File custom field type;
+- Added capability for hide Private Messages for manager;
+- Added new placeholders for current user;
+- Added option for display name of users in private messages;
+- New logic for message delete;
+- Fixed filesharing filters for managers;
+- Fixed private messages pagination;
+- Fixed ajax, css, js issues;
+- Fixed some displaying options;
+- Fixed private messages list table with translation;
+- Fixed duplicate nested categories for some values of categories shortcode attribute;
+- Fixed logout url when custom login url settings is active;
+- Fixed redirect after delete file category from old view;
+- Fixed private messages attribute for show/hide filters;
+- Fixed row actions on hover for Wordpress 4.2;
+- Fixed edit portal page on user area;
+- Fixed duplicate Payment step content for Authorizenet-AIM;
+- Fixed re-send welcome email duplicate Wordpress change password notification;
+
+
+= 3.9.6 =
+HOTFIX: - fixed paypal for some servers (changed SSL to TSL for CURL);
+
+
+= 3.9.5 =
+- Added temp password feature for exist members;
+- Added capability for managers to see all messages of their clients;
+- Added capability for managers to see private content from [wpc_client_private] Shortcode;
+- Changed title of payment steps (using text vs numbers);
+- Fixed access managers to files of assigned clients;
+- Fixed treetable problem with loading many thumbnails file (optimazed); 
+- Fixed files treetable for mobile;
+- Fixed terms/conditions on login form;
+- Fixed conflict for save WPC role on edit user page;
+- Fixed Fatal Error (redeclare ReCaptcha class);
+- Fixed Private Messages admin notices;
+- Fixed New Private Messages widget for Dashboard;
+- Fixed slashes in subject and content in Private Messages;
+- Fixed Private Messages's shortcode pagination attribute;
+
+
+= 3.9.3 =
+- Fixed CC Members for Private Messages;
+- Fixed show Stripe IPN url on settings;
+
+
+= 3.9.2 =
+- Added action notices for Private Messages on userarea;
+- Fixed Assign popup on Settings Convert Users;
+
+
+= 3.9.1 =
+- Added new logic for auto-convert users (added rules for each role);
+- Added option for SMTP "SMTPKeepAlive" for fix sending several emails;
+- Changed datepicker;
+- Changed assign popup;
+- Fixed Stripe for recurring payment;
+- Fixed CC Members for private messages;
+- Fixed verify for PayPal;
+- Fixed file shortcodes pagination with hide sorting;
+- Fixed for AJAX requests with FORCE_SSL;
+- Fixed reset password;
+- Small fixes;
+
+
+= 3.9.0 =
+- IMPORTANT!!! Deleted <p> tags from Display Custom Fields shortcode [wpc_client_custom_field_value];
+- Compatibility with WP 4.4
+- Rewrote Private messages feature;
+- Rewrote logic of install plugin pages;
+- Added Avatars feature;
+- Added setup Wizard;
+- Added feature to import clients/staffs with temp passwords from *.csv;
+- Added ability to turn off verify_email in Import Client ("verify_email"=>"0");
+- Added ability to expand/collapse rows in files treetable by click to "tr";
+- Added portal page tags;
+- Added visibility option for Client Staff Custom Fields
+- Added changes to profiles (WPC-Client, WPC-Admin, WPC-Manager, WPC-Staff);
+- Added more default currencies;
+- Added compatibility fix for gravity form registration;
+- Added Capability for manager - allow/deny change individual capabilities;
+- Fixed datepicker on clients page;
+- Fixed set From Name and Email for SMTP;
+- Fixed problem with encrypt/decrypt password of smtp on some servers;
+- Fixed autocomplete for password field;
+- Fixed email validation on Reset Password;
+- Fixed tooltips;
+- Fixed zero-decimal currencies as JPY and etc..in Stripe;
+- Fixed currency text on payment history;
+- Fixed of Custom Fields for both types;
+- Fixed problem with sign "&" in password;
+- Fixed logic of reset password from Client and staff Profiles;
+- Many small fixes; 
+- Style changes;
+- Text changes;
+
+= 3.8.9 =
+- Compatibility with WP 4.4
+
+= 3.8.8.2 =
+- Fixed problem with Private Message table;
+
+= 3.8.8.1 =
+- Fixed bug with datepicker;
+
+= 3.8.8 =
+- Added hook for payment gateways thank you page: "wpc_client_payment_thank_you_page_link";
+- Added Fix for WPML compatibility;
+- Changed dashboard for managers and added filters to dashboard for additional HTML "wpc_client_dashboard_after_widgets" and "wpc_client_dashboard_before_widgets";
+- Fixes for datepicker;
+- Fixed problem with translation functions;
+- Fixes custom fields;
+- Fixed add/edit manager (+added email template for manager updated);
+- some small changes and fixes
+
+
+= 3.8.7 =
+- Added Mask for text custom field;
+- Added option for Lock site for not logged in users;
+- Alphabetical client list for Previewing Portal Pages;
+- Added option for sorting by Custom Fields on Clients table;
+- Added bulk files download;
+- Added sorting searching to Portal Pages Tree shortcode;
+- Added ability for nesting assigns of file categories;
+- Added option to ability searching Portal Pages in global Wordpress search;
+- Added attribute for displaying featured image in portal pages tree shortcode;
+- Added template for Staff Directory;
+- Added action for approve email from Admin Clients page;
+- Added more capabilities for HUB and PP for manager;
+- Add child/parent Category distinction in dropdowns in admin;
+- Change CSS & JS for pagel tree;
+- Redesigned portal pages list shortcode + added features for search, sort & pagination;
+- Some fixes for pagel tree;
+- Fixed free payments;
+- Fixed datepicker;
+- Fixed import clients with no UTF-8 symbols and specific symbols in fields;
+- Fixed bug with lost password function;
+
+
+= 3.8.6 =
+!!!!!!!!! Important: File Sharing Templates (tree) will be automatically reset to default;
+- Added shortcode attribute for filter "tags" conditions as filter_condition='or|and';
+- Added capability for manager to manage/add circles;
+- Added filters and search to files tree shortcode;
+- Added disabling hide login and wp-admin pages when default permalinks are active;
+- Added search by custom fields;
+- Changed treetable for load content via ajax; 
+- Changed style of File Sharing shortcodes (tree);
+- Optimized speed & fixed issues with files treetable;
+- New Admin menu and tabs (some pages moved to another menu and tabs);
+- Fixed date format;
+- Fixed delete user popup(build list & texts);
+- Fixed some css & template for file templates;
+- Fixed add/edit file categories script;
+- Fixed downloader for some installs;
+- Fixed customizer;
+- Fixed screen option for Clients page;
+- Some fixes with UBERLoader uploader;
+- Fixed first time redirect;
+- Fixed captcha;
+- Fixed google doc viewer;
+- Fixed adding noindex, nofollow meta to our pages;
+- Fixed treetable with category attribute shortcode;
+- Fixed adding tags when admin upload files with UBERLoader;
+- Fixed delete links for files shortcodes;
+- Fixed assign popup (conflict with PageBuilder);
+- Fixed some problems with Save EZ HUB;
+- Fixed filter tags with OR|AND condition;
+- Fixed show/hide filters if show/hide author,category,tag;
+
+
+= 3.8.5 =
+!!!!!!!!! Important: File Sharing Templates (list, table, blog) will be automatically reset to default;
+- Changed style of File Sharing shortcodes (list, table, blog);
+- Added manager capabilities for add/edit/approve staff;
+- rewrote button in WP Editor for add our shortcodes; 
+- Fixed capability "Add Media" for Clients;
+- Fixed extensions page;
+- Fixed json_encode strings in AJAX requests
+- Fixed delete URL for files templates;
+- Fixed displaying client staff for managers;
+- Fixed "Clients" dashboard widget for WPC Manager;
+
+
+= 3.8.4 =
+- Added new Dashboard;
+- Added bulk actions to file's shortcode table;
+- Added ability to import clients from CSV file without password;
+- Added Login Alerts Email Templates for notifications, transferred options for this;
+- Added 'circle_condition' attr for wpc_client_private shortcode ('circle_condition' = "or|and");
+- Added Realm and Workstation settings for smtp;
+- Fixed login logout settings;
+- Fixed external link when pagination in filestable;
+- Fixed warning for {login_footer};
+- Fixed login redirect settings;
+- Fixed file categories selectbox on front end uploader;
+- Fixed download notification when client view file;
+- Fixed show more messages;
+- Fixed CSS conflict with "wp-mail-bank" plugin;
+- Some fixes;
+
+
+= 3.8.3 =
+- fixed error on assign popup;
+
+
+= 3.8.2 =
+- Added hook before submit Registration Form;
+- Fixed some problems with assign popup;
+- Fixed some problems on login from;
+- Fixed assign count on Circles page;
+- Fixed auto-upload option for uberloader uploader;
+
+
+= 3.8.1 =
+- Added Fist and Last Name inputs on Authorize.net payment form;
+- Added hook 'wpc_client_file_category_created';
+- Fixed shortcode for upload file;
+- Some fixes.
+
+
+= 3.8.0 =
+!!!!!!!!! Important: Templates for fileslu_table && filesla_table must be reseted to default;
+- Added "file_download_link" placeholder;
+- Added all attributes for "invoicing_list" shortcode;
+- Changed logic for File Uploader categories selectbox;
+- Fixed message shortcode filters for message shortcode template;
+- Fixed tinyMCE button for Private Post Types shortcode.
+- Fixed "no text" attribute for advanced templates;
+- Fixed colspan for files table (if some columns was hide);
+- Fixed per_page value;
+- Fixed file title&description for special symbol using;
+- Fixed auto/manual convert users functionality;
+- Fixed login captcha;
+- Some css fixes;
+
+
+= 3.7.9.9 =
+- Added changes for view logic on file shortcodes;
+- Added feature of add multiply options for custom fields;
+- Fixed display 404 on wp-admin and wp-login.php if are protected;
+- Fixed Font-Size in customizer;
+- Fixed download pdf with SSL;
+- Fixed show value for custom fields on Clients page;
+- Fixed next number of option for custom fields;
+- Some small fixes;
+
+
+= 3.7.9.8 =
+- Fixed login form template + added required "do_action()" to login form;
+- Fixed UTF8 collates for some queries on some servers;
+- Fixed clients profile data;
+- Fixed login/logout redirects;
+- Fixed cookie for preview;
+- Some small fixes;
+
+
+= 3.7.9.7 =
+!!!!!!!!! Important: Templates for fileslu_table && filesla_table must be reseted to default
+- Added set default settings for Email Sending;
+- Added sub-sub menu for Settings; 
+- Added changes to update option for import clients;
+- Added checking valid currencies for some gateways;
+- Added some fixes for WPML compatibility;
+- Added filter by author&tags on file sharing;
+- Added sorting by author on file sharing; 
+- Fixed "transparent" option in customizer;
+- Fixed creating HUB template file on new install;
+- Fixed currency settings;
+- Fixed problem with html tags on Hub and PP templates;
+- Fixed file table shortcode + some changes;
+- Fixes for show all file tags;
+- Fixed messages pagination for custom shortcode template;
+- Fixed file categories sorting;
+- Fixed login widget for Clef css;
+- Fixed some problem with recapcha 2.0;
+
+
+= 3.7.9.6 =
+- Compatibility with WP 4.2
+- Added feature for use custom icons for filetypes;
+- Added ajax loaders for sortable file categories;
+- Added feature to change resources folder path;
+- Added email to admins when client update profile;
+- Changed email sending process;
+- Fixed file categories sorting;
+- Fixed client profile phone value;
+- Fixed password generator;
+- Fixed relogin function for portal pages;
+- Fixed temp password for client relogin;
+- Fixed downloader;
+- Fixed showing metaboxes on sidebar;
+
+
+= 3.7.9.5 =
+- Changed capabilities maps;
+- Fixed view links for external files;
+- Fixed hub page link in menu;
+- Fixed some problems with login form;
+- Fixed download big files;
+
+
+= 3.7.9.4 =
+- Fixed view Portal Page for manager;
+- Fixed view Portal Page with different status;
+- Fixed login page css;
+- Fixed view links to target="_blank" on files shortcodes;
+- Fixed directory separator in upload dir path;
+
+
+= 3.7.9.3 =
+- Added numeric validate on max files upload value;
+- Added hook 'wpc_client_sync_file_saved';
+- Changed logic of activation payment gateways - auto activate on extensions;
+- Fixed hub page templates file exists warnings;
+- Fixed creating General category on install plugin;
+- Fixed files shortcode treetable issues;
+- Fixed edit profile by staff;
+
+
+= 3.7.9.2 =
+- Added number of version to CSS and JS includes for fix cache problem;
+- Fixed pagination for files table shortcode;
+- Fixed reset to default shortcode template forbitten error;
+- Fixed download links for default permalinks;
+- Fixed register/enqueue scripts on WP-Client Pages;
+- Fixed delete uploaded file by client from portal pages;
+- Fixed order issues on fileslu shortcode;
+- Fixed temp password;
+- Fixed is writable for upload folder;
+- Fixed some css&js in table filesharing template;
+- Some fixed with files shortcodes;
+
+
+= 3.7.9.1 =
+- Added "Custom Style" settings for add custom CSS;
+- Added temporary password feature;
+- Added password generator;
+- Added link on file title in files table shortcode;
+- Added first time login url (in Custom Redirects settings);
+- Added checking: is writable upload folder;
+- Added hub activity for staff;
+- Changed logic of template using (not save in DB until edit);
+- Fixed problem with HTTPS and "Custom Login URL";
+- Fixed AJAX for HTTPS;
+- Fixed css for portal pages tree shortcode;
+- Fixed JS on file sharing with translations;
+- Fixed author column in files table for external files;
+- Fixed files treetable content for 2 or more categories;
+- Fixed captcha;
+
+
+= 3.7.9 =
+- Added sorting for treetable view of files shortcode;
+- Added clients and circles multi select for private shortcode;
+- Added email notification template when manager created;
+- Added popup with options for remove users;
+- Added captcha for logins forms; 
+- Added Mandrill sending email feature;
+- Added hub templates priority;
+- Changed template for treetable view of files shortcode;
+- Changed filters logic for file table shortcode;
+- Rewrote HUB and Portal page preview;
+- Fixed pagination on file table shortcode;
+- Fixed tooltips on file's table shortcode;
+- Fixed treetable for mobile and MAC devices;
+- Fixed some problems with custom login form;
+- Fixed customizer;
+- Fixed assign popup on edit Portal Page;
+- Fixed problems with SMTP;
+- Fixed problem with width columns on Clients page;
+- Fixed admin notices;
+- Fixed problem with verify email;
+- Fixed files protect URL for external ftp:// files in admin and treetable;
+- Fixed delete users for multisite;
+- Fixed datepicker custom field;
+- Fixed import clients;
+
+
+= 3.7.8 =
+- Added dashboard for managers and capability to display it for manager;
+- Added notification for managers who can approve new registered clients after new client registration;
+- Added Unicode & Cyrillic fonts for DOMPDF;
+- Added new translations files;
+- Added changes to auto convert WPC user roles settings;
+- Added email notification for convert users;
+- Added bulk actions to staff list table;
+- Added feature to add new file tags from tags table and reassign tags;
+- Added no-browser-cache for client pages;
+- Added email notification to admin when staff created;
+- Added additional error messages in gateways;
+- Added import file categories;
+- Added custom hook "wpc_client_add_custom_scripts_to_page" for add css/js to different Theme Link Pages;
+- Fixed pagination for fileslu list shortcode;
+- Fixed update functions for update from old versions before 3.6.2;
+- Fixed feature client's notification with attachment about new file was assigned;
+- Fixed translate issues in file table shortcode;
+- Fixed Customizer;
+- Fixed include/exclude for private shortcode;
+- Fixed include admin side files in admin menu;
+- Style fixes;
+
+
+= 3.7.7.1 =
+- Added "client_username" field for import Staff;
+- Added different public and privat key for recaptcha 1.0 and 2.0;
+- Updated ZeroClipboard to v2;
+- Some fixes;
+
+= 3.7.7 =
+- Added Authorize Net SIM gateway; 
+- Added Authorize Net CIM option;
+- Added import for Staff;
+- Added auto approve staff setting;
+- Added new placeholder {portal_page_category};
+- Added links to staff directory + changed redirects from add/edit staff;
+- Added capabilities for manager can FTP sync;
+- Added option for FTP sync "Author name" or "Syncronization";
+- Added screen options on Clients page;
+- Added help tab on plugin's pages;
+- Added new recaptcha 2.0;
+- Added attribute for edit text on HUB Activity shortcode;
+- Added default sorting to files shortcodes (table, list, blog);
+- Added attribute for fileslist shortcode sort categories by name|order ids; 
+- Added privacy_type="include|exclude" to WPC Private Shortcode;
+- Fixed fatal error connected with WP_List_Table class;
+- Fixed fatal error connected with saving empty HUB template;
+- Fixed problem with email sending settings;
+- Fixed problem with archived clients on multisite;
+- Fixed problem with password indicator;
+- Fixed error notices for widgets;
+- Fixed import for clients;
+- Fixed portal pages sorting;
+- Fixed file sharing filters for managers;
+- Fixed Portal Pages sorting on HUB;
+- Fixed staff delete from multisite;
+- Fixed archived clients list;
+- Fixed client's approve with 0 circles;
+- Fixed regular file uploader;
+- Fixed some problems with clients convert;
+
+
+= 3.7.6.3 =
+- Added "_languages" folder (in "wpclient" uploads folder) for storage translated files;
+- Added ability for relate custom field with any user_meta;
+- Changed style for Registration form for make it responsive;
+- Fixed some problem with Stripe Gateway;
+- Fixed files sorting in list view type;
+
+
+= 3.7.6.2 =
+- Fixed files shortcode templates;
+- Fixed Force SSL in System Status on Dashboard;
+- Fixed some problem with thumbnails on files shortcodes;
+- Fixed portal page categories for managers;
+- Fixed problem with paypall;
+
+
+= 3.7.6.1 =
+- Fixed actions for Clients;
+- Fixed delete clients for multisite;
+- Fixed filters for file sharing;
+- Fixed hide admin bar;
+
+
+= 3.7.6 =
+- Added pagination for files shortcode with "list" style;
+- Added Email settings;
+- Added settings for send email to admin;
+- Added option for allow 2 customers with the same emails (by default deny);
+- Added "Blog" style for files shortcode;
+- Added video-player on "Blog" style for files shortcode;
+- Added HUB activity popup shortcode;
+- Added option to view different HUBs in Customizer;
+- Added ability to set default settings for "Convert to Client";
+- Added "Individual Capabilities" (for Client, Staff, Managers);
+- Added Sendgrid sender for send emails via Sendgrid;
+- Moved Client Actions links to popup;
+- Changed sorting for file shortcode "List" style to ajax;
+- Changed file sharing file access for managers;
+- Changed messages for password indicator;
+- Fixed captcha on registration form;
+- Fixed some file categories queries;
+- Fixed sorting on files table if two fileslu or filesla on one page.
+- Fixed problem with preview and session;
+- Fixed warning on HUB Pages table;
+- Some other fixes;
+
+
+= 3.7.5.1 =
+- Added tree style for client portal pages;
+- Fixed problem for display files on some servers;
+
+
+= 3.7.5 =
+- !!!ATTENTION: Important fixes;
+- Optimized fileslu and filesla shortcodes;
+- Added feature for show file in category with subcategories;
+- Added thumbnails for list view in file's shortcode.
+- Added access for Managers to files download and view;
+- Added access for Managers to client's private messages;
+- Added Capability for WPC-Managers to approve pending self-registered Clients;
+- Added option for admins to re-send "client welcome" email after client creation;
+- Added option for set default redirect for non-logged-in users;
+- Added option for WPC-Admins/Managers to view Private Post Types;
+- Changed texts in Strength password indicator;
+- Fixed Page title issue with editing Portal Pages;
+- Fixed Bulk actions on Approve Clients Page; 
+- Fixed Issue with adding client Internal Notes;
+- Some more fixes;
+
+
+= 3.7.1 =
+- Fixed problem with create HUB pages for new created clients;
+
+
+= 3.7.0 =
+- Added Portal Page Custom Title;
+- Added datepicker custom field;
+- Added hooks on Portal Page creation;
+- Added file author "Syncronization";
+- Added Files Categories for wpc_manager;
+- Added cleaner manager data, when manager was deleted;
+- Added new messages on password indicator;
+- Changed logic for wpc_manager file sharing;
+- Changed file sharing filter logic;
+- Changed logic to creation hub page (only after client approve);
+- Change logic on checking hub page access;
+- Fixed category selector for client pluploader;
+- Fixed author id for uploaded files
+- Fixed client selector on hub page preview;
+- Fixed delete assigned file link in assigned files shortcode;
+
+
+= 3.6.9.2 =
+- Add email template for "CC Email" of private messages;
+- Fixed style for "Tree" style for files on user area;
+- Fixed problem with file sharing for WPC Managers;
+- Some fixes;
+
+
+= 3.6.9.1 =
+- Fixed problem with redirect after login for PM user roles;
+- Fixed errors for managers on File Sharing;
+
+
+= 3.6.9 =
+- Added ability to add tags for files;
+- Added placeholders with client information for staff;
+- Added CC Email with Private Messages;
+- Fixed problem with manager assigns;
+- Fixed problem with hub page preview;
+- Fixed problem with install theme link pages on some servers;
+- Fixed manager capabilities for admin menu;
+
+
+= 3.6.9-beta2 =
+- Added new assignment options for Circles;
+
+
+= 3.6.9-beta1 =
+- Added Custom Fields for Client Staff;
+- Added folder name to file categories;
+- Added status "refunded" for Invoice Payments;
+- Added filter for files by Category;
+- Changed edit HUB templates to new style;
+- Fixed issues with datetime for current Wordpress time;
+- Fixed issues with FTP sync (removed id from folder names);
+- Fixed reassign file from category in files page;
+- Fixed reset to default for HUB template;
+- Fixed "View Notes" Capability for Manager;
+- Fixed Custom Title Issue;
+- Fixed not send emails to Archived Clients;
+- Fixed file upload on client area with file categories;
+- Fixed warning when admin login as client
+
+
+
+
+= 3.6.8.2 =
+- Added Auto-Convert Feature (See Settings "Client\Staff");
+- Add feature for admin to login as Client (for see user part like Client) see action links on Clients page;
+- Fixed not rename files which uploaded by FTP when do sync;
+- Fixed Payment History - removed payments with status like "selected_gateway";
+- Fixed display FTP form for install extensions (for some servers);
+- Fixed download link in file sharing shortcodes;
+- Fixed filters for client and author on file sharing page;
+- Fixed problem with portal page featured image;
+- Fixed stripe payments;
+
+
+= 3.6.8.1 =
+- Added feature to change URL and protection option for external files;
+- Fixed redirect to PayPal for defaults permalinks;
+- Fixed assign for upload new files on File Sharing;
+- Fixed download log displaying;
+- Fixed clearing of download log if file or client was deleted;
+- Fixed z-index for subsubmenu;
+- Fixed showing items on Payment History page;
+
+
+= 3.6.8 =
+- Compatibility with WP 4.0
+- Added functionality resend verification email for user;
+- Changed html structure on select payment method page;
+- Fixed display icons for external files;
+- Fixed logic for replace custom fields placeholders;
+- Fixed assign popup (not show selected clients/managers);
+- Fixed file shortcodes templates;
+- Fixed file shortcode table filter;
+- Fixed portal page select template (for child themes);
+- Fixed checking plugin folder for Windows servers;
+- Fixed sync with FTP when on FTP detected high register folders;
+- Fixed getting assigns function for files when there are archived clients in database;
+
+
+= 3.6.7 =
+- Compatibility with WP 4.0
+- Added sub-sub menu for plugin's menu in admin area;
+- Added setting for show upload file description, by default, description is hidden;
+- Added sending email notification to clients when new file assign to them;
+- Added capability �Show Files Download Log� for manager;
+- Fixed assign popup warning;
+- Fixed change display manager name;
+- Fixed HUB Templates assign;
+- Fixed unassigned client from manager after editing profile;
+- Fixed wpc_client shortcode for placeholders;
+- Fixed download for external files from S3;
+
+
+= 3.6.6 =
+- Changes: Protect external file URL function is optional;
+- Added password requirements settings (See Client\Staff Settings);
+- Added feature for write description to file uploader on hub page (see capabilities for client);
+- Added column �Placeholder� on Custom Fields page;
+- Fixed cache plugin pages on user area;
+- Fixed problem with download big external files;
+- Fixed problem for some customers for download files;
+- Fixed spacing in some templates;
+- Fixed admin notice tooltip;
+- Fixed widget warnings;
+- Fixed files order
+- Fixed short tag problem;
+
+
+= 3.6.5 =
+- Added blocking Client with not verified email (if option "Verify email Clients" is active);
+- Added "Public Name" and "Image" for Payment Gateways (see Payment Gateways settings);
+- Added feature to Set default HUB Template;
+- Added feature for Show/Hide any widgets on HUB and Portal Pages (see settings for each Widget);
+- Added Protection of external file link;
+- Added view link for image+pdf files to files table shortcode;
+- Fixed error with placeholder {blog_name}
+- Fixed terms/conditions validation on Registration page;
+- Fixed sync FTP with external files;
+- Fixed reassign files in file categories;
+- Fixed problem with buffering before download files;
+- Fixed uploading files by manager;
+- Fixed thumbnail preview if file is not exists;
+- Fixed styles on client&staff profile.
+- Fixed assign popup for add external file form;
+- Fixed assign popup for uploads file forms;
+- Fixed delete category with children categories and files;
+- Fixed FTP sync;
+- Fixed saving of Payment Gateways settings;
+- Fixed deleting file which was deleted on FTP;
+- Fixed warnings;
+- Fixed Reset Password function;
+
+
+= 3.6.2 =
+- Added Developer docs of plugin's hooks (PDF file in plugin folder);
+- Added some placeholders for Staff;
+- Added feature to change thumbnails size for File Sharing;
+- Added titles to assign popup item;
+- Changed Stripe payment form;
+- Fixed problem with assign popup width;
+- Fixed problem of upload speed for uberLOADER;
+- Fixed FTP sync (general folder not deleted);
+- Fixed HUB preview with pagel shortcode (Add Staff & Staff Directory are displayed now); 
+
+
+= 3.6.0 =
+- Added dismiss for admin notice;
+- Added feature for converting users with business name consisting of two or more meta fields;
+- Fixed issue with upload files large than 700 Mb with uderLOADER;
+- Fixed logic for FTP sync;
+- Changed file_get_contents() on wp_remote_get() for images in PDF;
+
+
+= 3.5.9 =
+- !!!ATTENTION: Important changes in Assign Popup. Need update all extensions too;
+- Added feature for Sync files in DB with FTP (manually from File Sharing or Automatically from Settings), so new folders(categories) and files will be added/removed in DB after Sync;
+- Added feature for limitation access by IP for login;
+- Added feature cancel uploading of file for uberLOADER;
+- Added feature for show/hide actions links in file table shortcode;
+- Changed css and some classes in templates for file tables shortcodes;
+- Fixed preview files from admin area in File Sharing;
+- Fixed problems with buffer when downloading files;
+- Fixed categories attribute for files uploader;
+- Fixed custom titles for Staff on some Clients forms;
+- Fixed admin notification when client upload file;
+- Fixed custom login/logout redirect for circles;
+- Fixed Sender for SMTP;
+
+
+= 3.5.8 =
+- Added logic for saved files in folders with title as category name;
+- Fixed apostrophe issue in private messages;
+- Some fixes;
+
+
+= 3.5.7 =
+- Added "assign manager" option in main Clients tab;
+- Added Sub-Categories for files;
+- Added new style (Trees) for display files on client area;
+- Added shortcode "wpc_view_custom_field" for display input on registration form or show value on client area;
+- Added new email template to separate templates for self client registration and adding client by admin;
+- Added email template form verify registration email;
+- Added fix for compability with Woocommerce roles WPC Admin and WPC Manager for abilities to see admin side;
+- Added "no_redirect" and "no_redirect_text" attributes for registration and login forms shortcodes;
+- Added ability to download (not only view) for *.pdf, *.jpg, *.png etc. files;
+- Fixed "Connection Lost" notice in HUB and Portal pages editor;
+- Some css and js fixes;
+
+
+= 3.5.6 =
+- !!!ATTENTION: Changed Payment Process. Need install new page and update all extensions with payment process too;
+- Added debug for test SMTP;
+- Added ability to edit client's business names; 
+- Added Capabilities "Edit Posts" for WPC Admin; 
+- Fixed set_time_limit() for some servers;
+- Fixed assign-popup display_name;
+- Fixed including js and css in shortcodes;
+- Fixed default text of HUB template without not UTF-8 symbols;
+- Fixed js error on files table in admin; 
+- Text changes;
+- Small fixes;
+
+
+= 3.5.4 =
+- Added filters on download log;
+- Ability to limit categories visible to clients for upload files;
+- Added class and ID to image on error page;
+- Added checking "gd" library for preview generation;
+- Fixed file table pagination and sorting;
+- Fixed filters on convert users page; 
+- Fixed tab-menu in admin side;
+- Removed pagination on custom fields;
+- Fixed for WPC Managers and WPC Admins Add Media capability on posts and pages;
+- Fixed files order by Order ID in file table shortcode;
+- Fixed client & staff profiles;
+- Fixed SMTP no encrypt option;
+- Some small fixes;
+
+
+= 3.5.3 =
+- Added new notification when Client downloaded file;
+- Fixed saving templates;
+- Fixed convert clients filter;
+- Fixed convert clients on multisite;
+- Fixed files table shortcode when preview HUB;
+- Fixed uberLOADER with category argument;
+- Fixed files list shortcode with last download date argument;
+- Fixed Select All checkbox on Assign Popup;
+- Fixed default values of shortcodes in wp-editor;
+- Fixed some js errors;
+- Fixed display managers in list of managers after change user role to WPC Manager;
+- Fixed "Enable" email templates;
+- Fixed some styles;
+- Changed some texts;
+
+
+= 3.5.2 =
+- some fixes;
+
+= 3.5.1 =
+- Added ability to apply style scheme to portal pages;
+- Added new uploader (uberLOADER) with ability upload big files;
+- Added to HUB templates for file upload shortcode attributes include/exclude filetypes;
+- Added Terms/Conditions for registration form (need update template);
+- Added files download log;
+- Fixed files shortcodes templates;
+- Fixed downloader with last download date;
+- Fixed search in clients approve;
+- Fixed bulk approve clients;
+- Fixed message shortcode template;
+- Fixed email notification to admins after sent message;
+
+
+= 3.5.0 =
+- Added double-opt for client registration;
+- Added feature for enable\disable some email notifications (on Email Template page);
+- Added global currency settings in General tab (for future using);
+- Added option for Login/Logout widget for disable redirect to HUB;
+- Added sender field for SMTP settings;
+- Changed in messages user_login to display_name;
+- Fixed button in visual edit for WP 3.9;
+- Fixed warnings registration form;
+- Fixed not_approved redirect;
+- Fixed message after upload files from user side;
+- Fixed some issues with custom fields;
+- Fixed Portal Pages Widget for displaying pages for Staff;
+- Fixed Email Notification for WPC Admins;
+- Fixed auto select circles for Add Portal Pages form;
+- Fixed assing popup Select All checkbox;
+- Fixed some styles;
+- Some fixes in login_page URLs;
+- some text changes;
+
+
+= 3.4.9 =
+- Compatibility  with Duo Two-Factor Authentication plugin;
+- Fixed file categories in files shortcode with table view;
+
+= 3.4.8 =
+- Added multi-select for assign files from FTP;
+- Added bulk action "Delete Forever" for Clients;
+- Added assign Clients when Circle is created;
+- Added new type of HUB Template: Simple HUB Template;
+- Added categories filter in Portal Pages Page;
+- Added new options for Login/Logout widget as "Forgot Password" & "Remember Me"; 
+- Fixed links with "Default" Permalink structure;
+- Fixed thumbnails in files shortcodes;
+- Fixed displaying Portal Pages for Manager;
+- Fixed files tables for client staff;
+- Fixed pagel and files templates for js sorting;
+- Some small fixes;
+
+= 3.4.7 =
+- Added new column on Circles page for show Circle ID;
+- Added Ignore Theme Link Pages option in auto creating of Portal pages & Add Portal Pages;
+- Added attribute auto_upload="yes/no" to file upload shortcode for auto-uploading files after selection;
+- Added new option for PayPal - Buyer PayPal Account (SOLUTIONTYPE);
+- Added new option for PayPal - Type of PayPal page to display (LANDINGPAGE);
+- Changed prefix for new Custom Feilds;
+- Fixed error page for not approved clients;
+- Fixed Edit Portal Page form for clients side; 
+- Fixed second bulk action select box on File Sharing page;
+- Fixed PayPal Sandbox mode;
+- Some CSS changes;
+- Some text changes;
+
+= 3.4.6 =
+- fixed problem with thumbnails on files shortcodes with table style;
+- Fixed some warnings;
+
+= 3.4.5 =
+- Added "Permissions Report" function;
+- Added table style for dispay files (see HUB templates);
+- Added view client info on "Client Approve";
+- Added new attributes for files shortcodes;
+- Added template for Profile page shortcode;
+- Added capability for Client to "Add Media" when editing Portal Pages;
+- Added text when no files in "Have Uploaded" and "Have Access To"
+- Added function to "copy" content from exist portal page on "Add Portal Page" page;
+- Added status 'NEW' to messages for users;
+- Added "Delete Uploaded Files" capability for client;
+- Added ability to use many HTML5 file uploaders on the same page;
+- Added ability to select some client for "Send Update to Client" on Edit Portal Page;
+- Added invoicing page template;
+- Changed "Contact name" field from "nickname" to "display_name";
+- Optimized code for display files;
+- Fixed "Send privat message" for "Read&Replay";
+- Fixed problem with resetting capabilities after reactivation plugin;
+- Fixed convert managers;
+- Fixed view managers in table;
+- Fixed show more messages button;
+- Fixed captcha + SSL;
+- Fixed displaying posts for manager (custom capabilities for custom posts);
+- Fixed duplicate "General" file Category;
+- Fixed warnings;
+- Fixed Portal Page widget;
+- Fixed Strict Standards warnings;
+- Fixed displaying stiky posts on WPC Pages;
+- Fixed Add/Edit Staff Form;
+- Some fixes for client import;
+- Some text changes;
+
+
+= 3.4.2 =
+- fixed some error with uploader;
+
+= 3.4.1 =
+- fixed logic of redirect from login page for already logged in users;
+- fixed icon in admin-menu in IE;
+- fixed edit/add staff forms;
+- fixed HTML5 uploader;
+
+
+= 3.4.0 =
+- Added change for accelerate plugin work;
+- Added Style Scheme Customizer;
+- Added new widget "Portal Page List";
+- Added function "copy content from portal page" to Add Portal Page;
+- Added field 'Category' for "Portal Pages" page;
+- Added functionality Archive and Delete clients for managers, capabilitie for "Restore Clients";
+- Added placeholder {client_registered_date};
+- Added new feature White Label change plugin info on "plugins" page;
+- Added sorting of portal pages (works only then show pages without categories names);
+- Added client registration date to table Clients;
+- Rewrote and added new features to some tables in admin area(style, sortable, search);
+- Fixed delete user from login_logs table;
+- Some fixes on File Sharing page;
+- Replaced "wp_unslash()" to "stripslashes_deep()" for old WP core versions;
+- Fixed pagel shortcode view with categories;
+- Fixed HUB Templates displaying and warnings;
+- Fixed preview of portal & HUB pages;
+- Fixed security(XSS) hole in widget;
+- Fixed previews hub and portal pages for client staff;
+- Fixed ability client staff logged in without approval;
+- Fixed downloader *.pdf, and images;
+- Fixed "wpc_client_private" shortcode;
+- Fixed widget error; 
+- Fixed files sorting, portal page sorting in client side;
+- Fixed White Label dashboard system status problem;
+
+
+
+
+
+= 3.3.9.1 =
+- fixed limit of email domain name for users;
+- fixed nuclear process (added deleting HUB templates);
+- fixed error on Clients for managers;
+- fixed some JS problem with "Show more messages";
+
+
+= 3.3.9 =
+- Rewrote and added new features to tables in admin area(style, sortable, search);
+- Added feature for move Clients to Archive;
+- Added pagination (<!--nextpage-->) for Portal Pages content (like for posts);
+- Fixed Portal Page Add New and Categories buttons;
+- Fixed problem with JS redirect( conflicts with some plugins which uses ob_start());
+- Fixed problem with extra slashes for updating all existing HUBs;
+- Fixed creating portal page for new clients;
+- Fixed placeholders for staff's notify about uploaded file;
+- Fixed manager's placeholders;
+- Some CSS fixes;
+- Some text changes;
+
+
+= 3.3.8 =
+- �ompatibility with WP 3.8;
+- Added fields "phone" and "adress" to Manager (add\edit forms);
+- fixed file downloader for some files;
+- fixed problem with reset email templates to default;
+- text changes;
+
+= 3.3.7 =
+- some fixes for wpc-admin;
+- fixed some problems with access to files from client side;
+
+= 3.3.6 =
+- Added order option for files;
+- Added new type of HUB page tamplate - "Advanced";
+- Added feature for assign clients and circles to Portal page from "Portal Pages" page;
+- Added shortcode for view managers on client HUB page;
+- Added feature for send privat messeges for circles;
+- Added filter by circle for managers on the File Sharing page;
+- Added new option for allow {php} tags in shortcode templates;
+- Added code for ability change profile.php and then deleting validation for required fields;
+- Added attributes to private messages shortcode, for show messages number & show more messages.
+- Added feature for assign manager to circle;
+- Added filters for messages;
+- Changed PayPal icon;
+- Fixed hardcode URLs for icons images;
+- Fixed filter order for portal page;
+- Fixed import expiration date;
+- Fixed view in menu old pages;
+- Fixed warnings when no assign manager to clients;
+- Fixed problem with paid registration and auto approve;
+- Fixed warnings for file order;
+- Fixed files counters& filters;
+- Fixed adding manager capabilities when activated plugin;
+- Fixed autop in wp-editors plugin's pages;
+- Fixed dashboard for managers;
+- Fixed bootstrap css;
+- Fixed some problems with Stripe gateway;
+- Fixed problem with HUB preview from admin;
+- Fixed Bulk Actions for delete files;
+- Fixed client filter on Messeges Page;
+
+= 3.3.5 =
+- Added feature to auto assigned new clients to managers (see edit manager page);
+- Added ability for managers/admins to preview Portal pages;
+- Add assign clients popup on Managers page;
+- Add assign circle  popup on Clients page;
+- Added client/circle filters on some pages in admin area;
+- Set JS sorting by default for Files shortcodes on User area;
+- Fixed replaced placeholders in template content;
+- Fixed problem with transient from older versions; 
+- Fixed sorting portal pages on HUB;
+- Fixed JS on EZ HUB;
+- Fixed conflict with "wp-editor" plugin and our assign popup on edit Portal page (we removed their FancyBox from our page - we have no choice);
+
+= 3.3 =
+- Added EZ HUB template system (see Templates page);
+- Added new option for hide Admin part (Custom login option); 
+- Added option change url of login page (Custom login option);
+- Added vertical tabs on settings page;
+- Added feature for select multi-managers per client;
+- Added bulk option for delete clients;
+- Added feature for set "priority sort" for "Portal Pages";
+- Added warning if changed name of plugin directory.
+- Auto activation extension after installation from extensions page;
+- Changed import/export of settings for new settings;
+- Fixed fatal error on portal pages;
+- Fixed some problem with login redirect;
+- Fixed stripslashes problem for some settings;
+- Fixed sending blank Private Message;
+- Fixed saved Graphic (for shortcode [wpc_client_graphic]);
+- Fixed manager's menu;
+- Fixed some translations texts;
+- Fixed problem with creating upload_dir for wp-clients files;
+- Some text changes;
+
+= 3.2.9.2 =
+- �ompatibility with WP 3.7;
+
+
+= 3.2.9.1 =
+- changes for hide Extensions menu (for WL);
+
+
+= 3.2.9 =
+- added Stripe payment gateway;
+- fixed SMTP;
+- fixed widget warning;
+- fixed display "profile" form;
+- fixed some problem with PayPal gateway;
+- changed uninstall function;
+
+
+= 3.2.8 =
+- fixed import clients;
+
+
+= 3.2.7 =
+- fixed some issue with translations;
+- returned "HUB page link" settings;
+- rewrote curl to remote post;
+- changed default custom logo;
+- fixed duplicate "Update" link on extensions page;
+
+
+
+....................................
+
+
+
+= 3.1.7 =
+- added Portal Pages categories;
+- added notify about new item (private post types);
+- added "Ignore Theme Link Page" option for HUB and Portal pages;
+- fixed conflict with another plugins for assigned clients and circles;
+- fixed some problems with login/logout redirects;
+- fixed custom-logins.php;
+- fixed file size in settings;
+- fixed Reply-To in emails;
+- fixed assign to all (private post types);
+- fixed problems with trying send message to deleted users;
+- fixed EST template (Quantity);
+- union all meta options for HUB and Portal pages in one block, and move it in right side;
+
+
+= 3.1.6 =
+- added admin-menu "WPC Admins" for adding\edit plugin admins;
+- added ability to change Captcha theme, public and private key;
+- added email template for reset password;
+- added ability to import/export settings of plugin;
+- add new attribute "redirect_after" for "wpc_client_com" shortcode;
+- fixed problem with blank redirect in Opera;
+- fixed problem with file categories;
+- fixed problem with custom redirects from wp-login.php and wp-client login page;
+- fixed problem with download files with ssl servers.  
+
+
+= 3.1.5 =
+- added "assign clients/circles popup" fo File Categoties;
+- added feature for diff shortcode templates;
+- added new role "WPC-Admin";
+- added manager can select circles for files;
+- fixed problem with select category for upload file in HTML5 uploader (client area);
+- fixed warning for set_time_limit in safe mode;
+- renamed plugin folder to lowercase;
+- fixed problem with reset settings;
+- fixed {contact_phone} placeholder;
+- fixed title of PP assign popup;
+- fixed problem with not paid client, after login;
+- fixed problem with circles when "assign client" is empty;
+- fixed warnings for custom fields;
+- fixed problem when deleting clients from WP Users page;
+- fixed problem with category attribute in uploader shortcode;
+- fixed the problem with redirect when Client login from WP Login page;
+- fixed the problem with assign client circles when circles are deleted.
+
+
+= 3.1.4 =
+- added Client Profile;
+- added Staff profile;
+- added new options for Custom fields (Display on Admin\Registration\Profile forms, Required Field, Readonly Field);
+- added new option "Allow 'Lost your password'";
+- added new capability "Reset Password" for client\staff;
+- added new capability "View Profile" for client\staff;
+- added new capability "Modify Profile" for client\staff;
+- added view option for some file types on user area (images, pdf);
+- added default login/logout URLs to redirect;
+- added redirect from login page to referer page;
+- fixed HTML5 uploader on user area;
+- fixed problem with "{password}" placeholder;
+- fixed problem with private post type error redirect;
+- fixed problem with SSL urls;
+- fixed some problem with client circles;
+- fixed edit file description;
+- fixed problem with runing HUB\PP shortcodes when creating client;
+

@@ -1,0 +1,70 @@
+.wpc_slider {
+    width:100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    clear:both;
+}
+
+.wpc_slider .wpc_slide_left {
+    width:30px;
+    height:30px;
+    margin: -15px 15px 0 0;
+    padding: 0 10px 0 12px;
+    position: absolute;
+    top:50%;
+    left:0;
+    z-index: 10;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpc_slider .wpc_slide_right {
+    width:30px;
+    height:30px;
+    margin: -15px 15px 0 0;
+    padding: 0 10px 0 12px;
+    position: absolute;
+    top:50%;
+    right:0;
+    z-index: 10;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wpc_slider .wpc_slide_left:before {
+    content:"\f341";
+    font: bold 14px/30px dashicons;
+    text-align: left;
+    cursor:pointer;
+}
+
+.wpc_slider .wpc_slide_right:before {
+    content:"\f345";
+    font: bold 14px/30px dashicons;
+    text-align: right;
+    float:right;
+    cursor:pointer;
+}
+
+.wpc_slider_overflow {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 9;
+    background: rgba(0,0,0,0.2);
+}
+
+.wpc_slider_content {
+    width: calc( 100% - 60px );
+    height: 100%;
+    margin: 0 30px 15px 0;
+    padding: 0;
+    float:left;
+    overflow-x: hidden;
+    overflow-y: visible;
+}

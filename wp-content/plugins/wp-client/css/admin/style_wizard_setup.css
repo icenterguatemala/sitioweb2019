@@ -1,0 +1,198 @@
+html {
+    background: #f1f1f1;
+    margin: 0 20px;
+}
+
+#wpc_body_setup {
+    margin: 10px auto 24px;
+    box-shadow: none;
+    background: #f1f1f1;
+    padding: 0;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    max-width: 700px;
+}
+
+.wpc-wizard-steps {
+    padding: 0 0 24px;
+    margin: 0;
+    overflow: hidden;
+    color: #ccc;
+    width: 100%;
+    list-style: none;
+}
+
+.wpc-wizard-steps li {
+    width: 20%;
+    float: left;
+    padding: 0 0 8px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 4px solid #ccc;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.wpc-wizard-steps li:before {
+    content: "";
+    border: 4px solid #ccc;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+    margin-bottom: -8px;
+    background: #fff;
+}
+
+.wpc-wizard-steps li.active:before {
+    border-color: #4171B3;
+}
+
+.wpc-wizard-steps li.done:before {
+    border-color: #4171B3;
+    background: #4171B3;
+}
+
+.wpc-wizard-steps li.done, .wpc-wizard-steps li.active {
+    border-color: #4171B3;
+    color: #4171B3;
+}
+
+#wpc_content {
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    padding: 24px 24px 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+#wpc-logo {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.wpc-setup-actions {
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.button-primary.wpc_button {
+    background-color: #4171B3 !important;
+    border-color: #4171B3 !important;
+    color: #fff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 0 rgba(0,0,0,.15) !important;
+    border: 0 !important;
+}
+
+.wpc_button {
+    float: right;
+    font-size: 20px;
+    padding: 8px 20px;
+    line-height: 24px;
+    height: auto;
+    margin-right: 8px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+a.wpc_button {
+    color: #555;
+    background: #f7f7f7;
+    -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+    border: 1px solid #ccc;
+}
+
+a.wpc_button:hover {
+    border-color: #555;
+    background: #fafafa;
+}
+
+.wpc_description {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 24px;
+    display: block;
+    margin-top: 4px;
+    color: #999;
+    font-style: italic;
+}
+
+#wpc_settings th {
+    text-align: right;
+}
+
+#wpc_settings td input, #wpc_settings td textarea {
+    margin-left: 30px;
+}
+
+#wpc_settings table {
+    width: 100%;
+}
+
+#wpc_content p, #wpc_content table {
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+    border-collapse: collapse;
+}
+
+#wpc_content h1, #wpc_content h2, #wpc_content h3, #wpc_content table {
+    margin: 0 0 24px;
+    border: 0;
+    padding: 0;
+    color: #666;
+    clear: none;
+    font-weight: 400;
+}
+
+#wpc_content td, #wpc_content th {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+#wpc_content th {
+    text-align: left;
+    width: 35%;
+    vertical-align: top;
+}
+
+
+#wpc_content table input, #wpc_content table textarea, #wpc_content table select {
+    width: 100%;
+    max-width: 450px;
+    padding: 4px 20px 4px 5px!important;
+    margin: 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #444;
+}
+
+label {
+    cursor: pointer;
+}
+
+#wpc-logo img {
+    max-width: 100%;
+}
+
+#upload_image_button {
+    cursor: pointer;
+}

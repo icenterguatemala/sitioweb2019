@@ -1,0 +1,22 @@
+#wpc_clients_convert_form {
+    margin: 5px 0 0 0;
+    float:left;
+}
+
+#wpc_clients_convert_form .search-box {
+    float:left;
+    padding: 2px 8px 0 0;
+}
+
+
+#wpc_clients_convert_form .alignleft.actions.bulkactions {
+    display: none;
+}
+
+#wpc_clients_convert_form .search-box input[type="search"] {
+    margin-top: 1px;
+}
+
+#wpc_clients_convert_form .search-box input[type="submit"] {
+    margin-top: 1px;
+}
